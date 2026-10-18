@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Figure 4 v2 - Text Masking and Candidate-order Robustness</title>
+  <style>
+    :root {
+      --ink:#162033;
+      --muted:#5f6f86;
+      --line:#d8e1eb;
+      --paper:#f5f7fa;
+      --panel:#ffffff;
+      --purple:#7570b3;
+      --green:#1b9e77;
+      --pink:#e7298a;
+    }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+    main {
+      width: min(1280px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 24px 0 32px;
+    }
+    h1 { margin: 0 0 6px; font-size: 22px; font-weight: 700; }
+    .subtitle { margin: 0 0 16px; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    .frame {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 16px;
+      overflow-x: auto;
+    }
+    svg { display: block; width: 1260px; height: auto; }
+    .notes {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .box {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px 14px;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .box h2 { margin: 0 0 6px; font-size: 14px; }
+    code { font-size: 12px; }
+    @media (max-width: 820px) { .notes { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Figure 4 v2. Robustness checks under text masking and candidate-order perturbation</h1>
+  <p class="subtitle">A quieter three-panel layout emphasizing paired comparisons, shuffled-order ranges, and prediction-change burden.</p>
+  <section class="frame">
+    <svg viewBox="0 0 1260 760" role="img" aria-label="Robustness summary figure">
+      <text x="34" y="36" font-size="22" font-weight="700" fill="#162033">Robustness checks: removing page text does not eliminate candidate-order sensitivity</text>
+      <text x="34" y="60" font-size="13" fill="#5f6f86">Text-masked subset: 60 images. Candidate-order experiment: 3 shuffled seeds for each of 3 core models.</text>
+
+      <text x="54" y="106" font-size="15" font-weight="700" fill="#162033">A. Paired direct30 accuracy before and after text masking</text>
+      <text x="54" y="126" font-size="12" fill="#5f6f86">All three McNemar tests were non-significant on the current n=60 subset; lines connect the same model before and after masking.</text>
+
+      <g font-size="10.5" fill="#5f6f86">
+        <line x1="266" y1="150" x2="540" y2="150" stroke="#d8e1eb"></line>
+        <line x1="266" y1="410" x2="540" y2="410" stroke="#d8e1eb"></line>
+        <line x1="266" y1="142" x2="266" y2="418" stroke="#eef3f8"></line><text x="266" y="434" text-anchor="middle">40%</text>
+        <line x1="403" y1="142" x2="403" y2="418" stroke="#eef3f8"></line><text x="403" y="434" text-anchor="middle">45%</text>
+        <line x1="540" y1="142" x2="540" y2="418" stroke="#eef3f8"></line><text x="540" y="434" text-anchor="middle">50%</text>
+      </g>
+      <text x="304" y="146" font-size="11.5" font-weight="700" fill="#5f6f86">Original</text>
+      <text x="444" y="146" font-size="11.5" font-weight="700" fill="#5f6f86">Text-masked</text>
+
+      <g font-size="12">
+        <text x="236" y="196" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-35B-A3B</text>
+        <line x1="403" y1="192" x2="426.3" y2="192" stroke="#7570b3" stroke-width="2.8"></line>
+        <circle cx="403" cy="192" r="6.5" fill="#7570b3"></circle>
+        <circle cx="426.3" cy="192" r="6.5" fill="#7570b3"></circle>
+        <text x="445" y="196" font-size="11.5" fill="#5f6f86">45.0 → 46.7%</text>
+
+        <text x="236" y="250" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-397B-A17B</text>
+        <line x1="403" y1="246" x2="448.2" y2="246" stroke="#1b9e77" stroke-width="2.8"></line>
+        <circle cx="403" cy="246" r="6.5" fill="#1b9e77"></circle>
+        <circle cx="448.2" cy="246" r="6.5" fill="#1b9e77"></circle>
+        <text x="467" y="250" font-size="11.5" fill="#5f6f86">45.0 → 48.3%</text>
+
+        <text x="236" y="304" text-anchor="end" font-weight="700" fill="#162033">Gemini 3.1 Flash Lite</text>
+        <line x1="426.3" y1="300" x2="403" y2="300" stroke="#e7298a" stroke-width="2.8"></line>
+        <circle cx="426.3" cy="300" r="6.5" fill="#e7298a"></circle>
+        <circle cx="403" cy="300" r="6.5" fill="#e7298a"></circle>
+        <text x="445" y="304" font-size="11.5" fill="#5f6f86">46.7 → 45.0%</text>
+      </g>
+
+      <text x="650" y="106" font-size="15" font-weight="700" fill="#162033">B. Candidate-order accuracy ranges across shuffled seeds</text>
+      <text x="650" y="126" font-size="11.5" fill="#5f6f86">Three shuffled seed accuracies are shown as points.</text>
+      <text x="650" y="144" font-size="11.5" fill="#5f6f86">Horizontal segments indicate the observed range.</text>
+
+      <g font-size="10.5" fill="#5f6f86">
+        <line x1="822" y1="166" x2="1084" y2="166" stroke="#d8e1eb"></line>
+        <line x1="822" y1="410" x2="1084" y2="410" stroke="#d8e1eb"></line>
+        <line x1="822" y1="158" x2="822" y2="418" stroke="#eef3f8"></line><text x="822" y="434" text-anchor="middle">35%</text>
+        <line x1="909.3" y1="158" x2="909.3" y2="418" stroke="#eef3f8"></line><text x="909.3" y="434" text-anchor="middle">40%</text>
+        <line x1="996.7" y1="158" x2="996.7" y2="418" stroke="#eef3f8"></line><text x="996.7" y="434" text-anchor="middle">45%</text>
+        <line x1="1084" y1="158" x2="1084" y2="418" stroke="#eef3f8"></line><text x="1084" y="434" text-anchor="middle">50%</text>
+      </g>
+
+      <g font-size="12">
+        <text x="792" y="196" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-35B-A3B</text>
+        <line x1="880.2" y1="192" x2="938.4" y2="192" stroke="#7570b3" stroke-width="2.8"></line>
+        <circle cx="909.3" cy="192" r="6" fill="#fff" stroke="#7570b3" stroke-width="2.2"></circle>
+        <circle cx="938.4" cy="192" r="6" fill="#fff" stroke="#7570b3" stroke-width="2.2"></circle>
+        <circle cx="880.2" cy="192" r="6" fill="#fff" stroke="#7570b3" stroke-width="2.2"></circle>
+        <text x="958" y="196" font-size="11.5" fill="#5f6f86">38.3%-41.7%</text>
+
+        <text x="792" y="250" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-397B-A17B</text>
+        <line x1="967.6" y1="246" x2="1084" y2="246" stroke="#1b9e77" stroke-width="2.8"></line>
+        <circle cx="1084" cy="246" r="6" fill="#fff" stroke="#1b9e77" stroke-width="2.2"></circle>
+        <circle cx="1084" cy="246" r="6" fill="#fff" stroke="#1b9e77" stroke-width="2.2"></circle>
+        <circle cx="967.6" cy="246" r="6" fill="#fff" stroke="#1b9e77" stroke-width="2.2"></circle>
+        <text x="1104" y="250" font-size="11.5" fill="#5f6f86">43.3%-50.0%</text>
+
+        <text x="792" y="304" text-anchor="end" font-weight="700" fill="#162033">Gemini 3.1 Flash Lite</text>
+        <line x1="996.7" y1="300" x2="1055.0" y2="300" stroke="#e7298a" stroke-width="2.8"></line>
+        <circle cx="1055.0" cy="300" r="6" fill="#fff" stroke="#e7298a" stroke-width="2.2"></circle>
+        <circle cx="1025.8" cy="300" r="6" fill="#fff" stroke="#e7298a" stroke-width="2.2"></circle>
+        <circle cx="996.7" cy="300" r="6" fill="#fff" stroke="#e7298a" stroke-width="2.2"></circle>
+        <text x="1074" y="304" font-size="11.5" fill="#5f6f86">45.0%-48.3%</text>
+      </g>
+
+      <text x="54" y="522" font-size="15" font-weight="700" fill="#162033">C. Prediction-change burden under candidate-order shuffling</text>
+      <text x="54" y="542" font-size="12" fill="#5f6f86">Bars show the number of images whose predicted family changed relative to the baseline order; adjacent ticks show mean prediction entropy.</text>
+
+      <g font-size="10.5" fill="#5f6f86">
+        <line x1="322" y1="568" x2="646" y2="568" stroke="#d8e1eb"></line>
+        <line x1="322" y1="720" x2="646" y2="720" stroke="#d8e1eb"></line>
+        <line x1="322" y1="560" x2="322" y2="728" stroke="#eef3f8"></line><text x="322" y="742" text-anchor="middle">0</text>
+        <line x1="430" y1="560" x2="430" y2="728" stroke="#eef3f8"></line><text x="430" y="742" text-anchor="middle">5</text>
+        <line x1="538" y1="560" x2="538" y2="728" stroke="#eef3f8"></line><text x="538" y="742" text-anchor="middle">10</text>
+        <line x1="646" y1="560" x2="646" y2="728" stroke="#eef3f8"></line><text x="646" y="742" text-anchor="middle">15 changed</text>
+      </g>
+
+      <g font-size="12">
+        <text x="300" y="610" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-35B-A3B</text>
+        <rect x="322" y="596" width="324" height="20" fill="#e7e4f7"></rect>
+        <text x="654" y="611" fill="#162033">15/60</text>
+        <line x1="493" y1="622" x2="493" y2="642" stroke="#7570b3" stroke-width="2"></line>
+        <text x="504" y="638" font-size="11.5" fill="#5f6f86">entropy 0.263</text>
+
+        <text x="300" y="664" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-397B-A17B</text>
+        <rect x="322" y="650" width="280.8" height="20" fill="#dcefe6"></rect>
+        <text x="611" y="665" fill="#162033">13/60</text>
+        <line x1="472.3" y1="676" x2="472.3" y2="696" stroke="#1b9e77" stroke-width="2"></line>
+        <text x="483" y="692" font-size="11.5" fill="#5f6f86">entropy 0.232</text>
+
+        <text x="300" y="718" text-anchor="end" font-weight="700" fill="#162033">Gemini 3.1 Flash Lite</text>
+        <rect x="322" y="704" width="172.8" height="20" fill="#f8d9ea"></rect>
+        <text x="503" y="719" fill="#162033">8/60</text>
+        <line x1="421.1" y1="730" x2="421.1" y2="750" stroke="#e7298a" stroke-width="2"></line>
+        <text x="432" y="746" font-size="11.5" fill="#5f6f86">entropy 0.145</text>
+      </g>
+
+      <g font-size="12" fill="#5f6f86">
+        <text x="808" y="598">Prediction consistency to the baseline order:</text>
+        <text x="808" y="626">Qwen3.5-35B-A3B 80.5%</text>
+        <text x="808" y="650">Qwen3.5-397B-A17B 85.5%</text>
+        <text x="808" y="674">Gemini 3.1 Flash Lite 92.8%</text>
+      </g>
+    </svg>
+  </section>
+  <section class="notes">
+    <div class="box">
+      <h2>Detailed content</h2>
+      <p>Panel A compares original and text-masked direct30 family accuracy on the same 60 images. Panel B shows that candidate-order shuffling changes performance even after visible text has been removed. Panel C quantifies the operational burden of that instability using changed-prediction counts and mean prediction entropy.</p>
+      <p>The figure supports a cautious robustness claim: the masking subset does not show a clear loss, but prompt-order sensitivity remains detectable in both accuracy ranges and sample-level prediction changes.</p>
+    </div>
+    <div class="box">
+      <h2>Data source</h2>
+      <p><code>paper_analysis/text_masked_experiments/tables/masked_vs_original_paired.csv</code></p>
+      <p><code>paper_analysis/supplementary_experiments/tables/order_robustness_summary.csv</code></p>
+      <p><code>paper_analysis/supplementary_experiments/tables/order_prediction_consistency.csv</code></p>
+      <p><code>paper_analysis/supplementary_experiments/tables/order_prediction_entropy.csv</code></p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

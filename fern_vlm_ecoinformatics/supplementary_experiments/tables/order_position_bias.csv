@@ -1,0 +1,171 @@
+provider,model,seed,candidate_position,prediction_count,correct_count,position_accuracy
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,1,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,2,1,1,100.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,7,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,8,1,1,100.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,9,9,4,44.4%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,10,3,2,66.7%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,12,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,15,2,2,100.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,16,1,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,18,2,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,19,1,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,22,5,2,40.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,24,2,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,25,1,1,100.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,26,5,1,20.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,29,5,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,30,11,7,63.6%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,1,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,3,1,1,100.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,7,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,8,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,9,9,4,44.4%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,10,5,2,40.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,12,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,13,1,1,100.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,15,2,2,100.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,18,1,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,19,1,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,22,4,2,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,24,2,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,26,5,1,20.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,28,3,1,33.3%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,29,6,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,30,10,7,70.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,1,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,7,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,8,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,9,9,4,44.4%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,10,5,2,40.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,12,2,1,50.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,15,2,2,100.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,16,1,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,19,1,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,22,3,2,66.7%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,24,2,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,26,5,1,20.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,28,1,1,100.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,29,5,0,0.0%
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,30,12,7,58.3%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,1,7,1,14.3%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,2,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,3,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,4,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,6,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,7,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,8,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,9,12,6,50.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,10,2,2,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,12,2,1,50.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,13,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,15,3,3,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,18,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,19,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,20,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,21,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,22,2,2,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,25,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,26,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,27,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,28,2,1,50.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,29,5,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,30,11,7,63.6%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,1,6,1,16.7%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,2,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,3,2,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,6,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,7,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,8,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,9,12,6,50.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,10,2,2,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,12,2,1,50.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,13,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,14,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,15,3,3,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,18,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,19,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,20,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,22,2,2,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,25,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,26,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,27,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,28,2,1,50.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,29,5,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,30,12,7,58.3%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,1,5,1,20.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,3,2,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,6,2,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,7,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,8,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,9,12,6,50.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,10,2,2,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,12,2,1,50.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,15,3,3,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,18,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,20,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,21,1,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,22,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,25,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,26,2,1,50.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,28,1,1,100.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,29,6,0,0.0%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,30,14,7,50.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,1,6,1,16.7%
+google-gemini,Gemini 3.1 Flash Lite,20260512,7,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,8,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,9,11,6,54.5%
+google-gemini,Gemini 3.1 Flash Lite,20260512,10,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,12,2,1,50.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,13,1,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,15,3,3,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,16,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,18,4,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,19,1,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,22,2,2,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,23,1,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,24,1,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,25,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,26,3,1,33.3%
+google-gemini,Gemini 3.1 Flash Lite,20260512,27,2,2,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,28,2,1,50.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,29,5,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260512,30,11,7,63.6%
+google-gemini,Gemini 3.1 Flash Lite,20260513,1,6,1,16.7%
+google-gemini,Gemini 3.1 Flash Lite,20260513,7,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,8,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,9,11,6,54.5%
+google-gemini,Gemini 3.1 Flash Lite,20260513,10,2,1,50.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,12,2,1,50.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,13,2,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,15,3,3,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,16,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,18,4,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,19,1,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,22,2,2,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,24,1,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,25,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,26,5,1,20.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,27,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,28,2,1,50.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,29,4,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260513,30,10,7,70.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,1,8,1,12.5%
+google-gemini,Gemini 3.1 Flash Lite,20260514,6,1,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,7,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,8,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,9,11,6,54.5%
+google-gemini,Gemini 3.1 Flash Lite,20260514,10,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,12,2,1,50.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,13,3,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,15,3,3,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,18,2,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,19,1,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,22,3,2,66.7%
+google-gemini,Gemini 3.1 Flash Lite,20260514,24,1,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,25,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,26,2,1,50.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,27,1,1,100.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,28,2,1,50.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,29,5,0,0.0%
+google-gemini,Gemini 3.1 Flash Lite,20260514,30,11,7,63.6%

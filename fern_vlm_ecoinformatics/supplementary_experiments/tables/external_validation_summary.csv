@@ -1,0 +1,4 @@
+provider,model,status,completed_success_n,target_n,n,valid_count,family_correct,family_acc,family_acc_95ci,top3_acc,top3_acc_95ci,invalid_count,invalid_rate,families_evaluated,macro_family_acc,balanced_accuracy,macro_top3_acc,estimated_tokens,avg_time_s,source_specific_accuracy
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,completed,90,90,90,86,30,33.3%,24.5%-43.6%,44.4%,34.6%-54.7%,4,4.4%,30,33.3%,33.3%,44.4%,203120,2.3,GBIF:16.7%;iNaturalist:37.5%
+dashscope-qwen397b,Qwen3.5 Plus / 397B,completed,90,90,90,90,39,43.3%,33.6%-53.6%,60.0%,49.7%-69.5%,0,0.0%,30,43.3%,43.3%,60.0%,351256,30.8,GBIF:33.3%;iNaturalist:45.8%
+google-gemini,Gemini 3.1 Flash Lite,completed,90,90,90,90,37,41.1%,31.5%-51.4%,56.7%,46.4%-66.4%,0,0.0%,30,41.1%,41.1%,56.7%,143127,9.4,GBIF:61.1%;iNaturalist:36.1%

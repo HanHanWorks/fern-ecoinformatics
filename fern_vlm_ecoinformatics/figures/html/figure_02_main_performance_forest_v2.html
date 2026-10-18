@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Figure 2 v2 - Main Closed-set Performance</title>
+  <style>
+    :root {
+      --ink:#162033;
+      --muted:#5f6f86;
+      --line:#d8e1eb;
+      --paper:#f5f7fa;
+      --panel:#ffffff;
+      --accent:#c96f2d;
+    }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+    main {
+      width: min(1280px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 24px 0 32px;
+    }
+    h1 { margin: 0 0 6px; font-size: 22px; font-weight: 700; }
+    .subtitle { margin: 0 0 16px; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    .frame {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 16px;
+      overflow-x: auto;
+    }
+    svg { display: block; width: 1360px; height: auto; }
+    .notes {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .box {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px 14px;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .box h2 { margin: 0 0 6px; font-size: 14px; }
+    code { font-size: 12px; }
+    @media (max-width: 820px) { .notes { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Figure 2 v2. Closed-set family accuracy relative to trivial baselines</h1>
+  <p class="subtitle">A forest-plot style main result figure emphasizing uncertainty, baseline context, and top-3 candidate utility.</p>
+  <section class="frame">
+    <svg viewBox="0 0 1540 650" role="img" aria-label="Closed-set family performance forest plot">
+      <text x="34" y="36" font-size="22" font-weight="700" fill="#162033">30-family closed-set performance on the local 155-image dataset</text>
+      <text x="34" y="60" font-size="13" fill="#5f6f86">Solid points show top-1 family accuracy. Horizontal bars show Wilson 95% confidence intervals. Hollow points show top-3 family accuracy.</text>
+
+      <text x="300" y="138" text-anchor="end" font-size="11.5" font-weight="700" fill="#5f6f86">Model</text>
+      <text x="1200" y="138" font-size="11.5" font-weight="700" fill="#5f6f86">Top-1 estimate [95% CI]</text>
+      <text x="1420" y="138" text-anchor="middle" font-size="11.5" font-weight="700" fill="#5f6f86">Top-3</text>
+
+      <rect x="330" y="156" width="1140" height="56" fill="#fafbfd"></rect>
+      <rect x="330" y="226" width="1140" height="56" fill="#ffffff"></rect>
+      <rect x="330" y="296" width="1140" height="56" fill="#fafbfd"></rect>
+      <rect x="330" y="366" width="1140" height="56" fill="#ffffff"></rect>
+      <rect x="330" y="436" width="1140" height="56" fill="#fafbfd"></rect>
+
+      <line x1="330" y1="132" x2="1150" y2="132" stroke="#d8e1eb"></line>
+      <line x1="330" y1="520" x2="1150" y2="520" stroke="#d8e1eb"></line>
+      <line x1="1174" y1="132" x2="1174" y2="520" stroke="#d8e1eb"></line>
+      <text x="740" y="600" text-anchor="middle" font-size="13" font-weight="700" fill="#5f6f86">Family accuracy (%)</text>
+
+      <g font-size="10.5" fill="#5f6f86">
+        <line x1="330" y1="132" x2="330" y2="520" stroke="#eef3f8"></line><text x="330" y="544" text-anchor="middle">0</text>
+        <line x1="439.3" y1="132" x2="439.3" y2="520" stroke="#eef3f8"></line><text x="439.3" y="544" text-anchor="middle">10</text>
+        <line x1="548.7" y1="132" x2="548.7" y2="520" stroke="#eef3f8"></line><text x="548.7" y="544" text-anchor="middle">20</text>
+        <line x1="658.0" y1="132" x2="658.0" y2="520" stroke="#eef3f8"></line><text x="658.0" y="544" text-anchor="middle">30</text>
+        <line x1="767.3" y1="132" x2="767.3" y2="520" stroke="#eef3f8"></line><text x="767.3" y="544" text-anchor="middle">40</text>
+        <line x1="876.7" y1="132" x2="876.7" y2="520" stroke="#eef3f8"></line><text x="876.7" y="544" text-anchor="middle">50</text>
+        <line x1="986.0" y1="132" x2="986.0" y2="520" stroke="#eef3f8"></line><text x="986.0" y="544" text-anchor="middle">60</text>
+        <line x1="1095.3" y1="132" x2="1095.3" y2="520" stroke="#eef3f8"></line><text x="1095.3" y="544" text-anchor="middle">70</text>
+        <line x1="1150" y1="132" x2="1150" y2="520" stroke="#eef3f8"></line>
+      </g>
+
+      <line x1="366.1" y1="132" x2="366.1" y2="520" stroke="#9aa7b6" stroke-dasharray="4 5"></line>
+      <text x="366.1" y="102" text-anchor="middle" font-size="10.5" font-weight="700" fill="#5f6f86">random top-1 3.3%</text>
+
+      <line x1="439.3" y1="132" x2="439.3" y2="520" stroke="#9aa7b6" stroke-dasharray="4 5"></line>
+      <text x="439.3" y="84" text-anchor="middle" font-size="10.5" font-weight="700" fill="#5f6f86">random top-3 10.0%</text>
+
+      <line x1="632.8" y1="132" x2="632.8" y2="520" stroke="#8a5f3c" stroke-dasharray="5 5"></line>
+      <text x="632.8" y="102" text-anchor="middle" font-size="10.5" font-weight="700" fill="#8a5f3c">majority-family baseline 27.7%</text>
+
+      <g font-size="12">
+        <text x="300" y="188" text-anchor="end" font-weight="700" fill="#162033">mimo-v2.5</text>
+        <line x1="802.2" y1="184" x2="971.8" y2="184" stroke="#1e293b" stroke-width="2.2"></line>
+        <line x1="802.2" y1="175" x2="802.2" y2="193" stroke="#1e293b" stroke-width="2.2"></line>
+        <line x1="971.8" y1="175" x2="971.8" y2="193" stroke="#1e293b" stroke-width="2.2"></line>
+        <circle cx="887.6" cy="184" r="7.5" fill="#2d3748"></circle>
+        <circle cx="965.2" cy="184" r="7.0" fill="#ffffff" stroke="#738295" stroke-width="2.2"></circle>
+        <text x="1200" y="188" font-size="11.5" fill="#162033">51.0% [43.2, 58.7]</text>
+        <text x="1420" y="188" text-anchor="middle" font-size="11.5" fill="#162033">58.1%</text>
+
+        <text x="300" y="258" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-35B-A3B</text>
+        <line x1="864.6" y1="254" x2="1033.0" y2="254" stroke="#1e293b" stroke-width="2.2"></line>
+        <line x1="864.6" y1="245" x2="864.6" y2="263" stroke="#1e293b" stroke-width="2.2"></line>
+        <line x1="1033.0" y1="245" x2="1033.0" y2="263" stroke="#1e293b" stroke-width="2.2"></line>
+        <circle cx="950.9" cy="254" r="7.5" fill="#2d3748"></circle>
+        <circle cx="1098.6" cy="254" r="7.0" fill="#ffffff" stroke="#738295" stroke-width="2.2"></circle>
+        <text x="1200" y="258" font-size="11.5" fill="#162033">56.8% [48.9, 64.3]</text>
+        <text x="1420" y="258" text-anchor="middle" font-size="11.5" fill="#162033">70.3%</text>
+
+        <text x="300" y="328" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-27B</text>
+        <line x1="871.2" y1="324" x2="1039.5" y2="324" stroke="#1e293b" stroke-width="2.2"></line>
+        <line x1="871.2" y1="315" x2="871.2" y2="333" stroke="#1e293b" stroke-width="2.2"></line>
+        <line x1="1039.5" y1="315" x2="1039.5" y2="333" stroke="#1e293b" stroke-width="2.2"></line>
+        <circle cx="957.5" cy="324" r="7.5" fill="#2d3748"></circle>
+        <circle cx="1084.4" cy="324" r="7.0" fill="#ffffff" stroke="#738295" stroke-width="2.2"></circle>
+        <text x="1200" y="328" font-size="11.5" fill="#162033">57.4% [49.5, 64.9]</text>
+        <text x="1420" y="328" text-anchor="middle" font-size="11.5" fill="#162033">69.0%</text>
+
+        <text x="300" y="398" text-anchor="end" font-weight="700" fill="#162033">Gemini 3.1 Flash Lite</text>
+        <line x1="893.1" y1="394" x2="1060.4" y2="394" stroke="#1e293b" stroke-width="2.2"></line>
+        <line x1="893.1" y1="385" x2="893.1" y2="403" stroke="#1e293b" stroke-width="2.2"></line>
+        <line x1="1060.4" y1="385" x2="1060.4" y2="403" stroke="#1e293b" stroke-width="2.2"></line>
+        <circle cx="979.4" cy="394" r="7.5" fill="#2d3748"></circle>
+        <circle cx="1098.6" cy="394" r="7.0" fill="#ffffff" stroke="#738295" stroke-width="2.2"></circle>
+        <text x="1200" y="398" font-size="11.5" fill="#162033">59.4% [51.5, 66.8]</text>
+        <text x="1420" y="398" text-anchor="middle" font-size="11.5" fill="#162033">70.3%</text>
+
+        <text x="300" y="468" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-397B-A17B</text>
+        <line x1="907.3" y1="464" x2="1073.5" y2="464" stroke="#1e293b" stroke-width="2.2"></line>
+        <line x1="907.3" y1="455" x2="907.3" y2="473" stroke="#1e293b" stroke-width="2.2"></line>
+        <line x1="1073.5" y1="455" x2="1073.5" y2="473" stroke="#1e293b" stroke-width="2.2"></line>
+        <circle cx="992.6" cy="464" r="7.5" fill="#2d3748"></circle>
+        <circle cx="1106.2" cy="464" r="7.0" fill="#ffffff" stroke="#738295" stroke-width="2.2"></circle>
+        <text x="1200" y="468" font-size="11.5" fill="#162033">60.6% [52.8, 68.0]</text>
+        <text x="1420" y="468" text-anchor="middle" font-size="11.5" fill="#162033">71.0%</text>
+      </g>
+
+      <g font-size="12" fill="#5f6f86">
+        <circle cx="748" cy="576" r="6.5" fill="#2d3748"></circle><text x="764" y="580">top-1 family accuracy</text>
+        <circle cx="942" cy="576" r="6.5" fill="#ffffff" stroke="#738295" stroke-width="2"></circle><text x="958" y="580">top-3 family accuracy</text>
+      </g>
+    </svg>
+  </section>
+  <section class="notes">
+    <div class="box">
+      <h2>Detailed content</h2>
+      <p>This figure places the five evaluated VLMs on the same scale as random and majority-family baselines. It also makes the uncertainty explicit through Wilson confidence intervals and shows that top-3 performance is higher than top-1 performance for every model.</p>
+      <p>The intended interpretation is restrained: VLMs clearly exceed trivial baselines, but the leading direct30 point estimates remain close and their confidence intervals overlap.</p>
+    </div>
+    <div class="box">
+      <h2>Data source</h2>
+      <p><code>paper_analysis/tables/master_model_task_summary.csv</code></p>
+      <p><code>paper_analysis/tables/baseline_comparison.csv</code></p>
+      <p>Key values: random top-1 3.3%, random top-3 10.0%, majority-family baseline 27.7%, direct30 family accuracy 51.0%-60.6%.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

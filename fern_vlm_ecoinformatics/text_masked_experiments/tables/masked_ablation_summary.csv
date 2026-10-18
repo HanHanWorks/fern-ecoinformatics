@@ -1,0 +1,13 @@
+model_id,model,task,task_label,condition,n,family_correct,family_acc,family_acc_95ci,top3_correct,top3_acc,invalid_count,invalid_rate,estimated_tokens,avg_time_s
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30,30-family direct closed-set,original,60,28,46.7%,34.6%-59.1%,31,51.7%,0,0.0%,95070,10.8
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30,30-family direct closed-set,text_masked,60,27,45.0%,33.1%-57.5%,29,48.3%,0,0.0%,95329,13.9
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy,30-family taxonomy prompt,original,60,26,43.3%,31.6%-55.9%,30,50.0%,0,0.0%,145296,12.5
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy,30-family taxonomy prompt,text_masked,60,28,46.7%,34.6%-59.1%,34,56.7%,0,0.0%,145575,13.9
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B / qwen3.5-flash,direct30,30-family direct closed-set,original,60,27,45.0%,33.1%-57.5%,34,56.7%,0,0.0%,221283,16.6
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B / qwen3.5-flash,direct30,30-family direct closed-set,text_masked,60,28,46.7%,34.6%-59.1%,33,55.0%,4,6.7%,123068,2.1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B / qwen3.5-flash,taxonomy,30-family taxonomy prompt,original,60,27,45.0%,33.1%-57.5%,35,58.3%,0,0.0%,279337,10.8
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B / qwen3.5-flash,taxonomy,30-family taxonomy prompt,text_masked,60,25,41.7%,30.1%-54.3%,34,56.7%,2,3.3%,177924,2.9
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30,30-family direct closed-set,original,60,27,45.0%,33.1%-57.5%,32,53.3%,0,0.0%,243784,32.5
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30,30-family direct closed-set,text_masked,60,29,48.3%,36.2%-60.7%,33,55.0%,0,0.0%,203048,28.5
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy,30-family taxonomy prompt,original,60,29,48.3%,36.2%-60.7%,33,55.0%,0,0.0%,339455,47.3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy,30-family taxonomy prompt,text_masked,60,29,48.3%,36.2%-60.7%,36,60.0%,0,0.0%,310043,44.0

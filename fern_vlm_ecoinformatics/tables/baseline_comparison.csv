@@ -1,0 +1,8 @@
+entry_type,model_or_baseline,task,n,family_correct,family_acc,family_acc_95ci,top3_acc,invalid_rate,note
+baseline,Random 30-family top-1,direct30_full155,155,0.0333 expected probability,3.3%,,10.0%,0.0%,Uniform random guess among 30 candidate families; top-3 assumes three distinct random candidates.
+baseline,Majority-family baseline (鳞毛蕨科),direct30_full155,155,43,27.7%,21.3%-35.3%,,0.0%,Always predicts the most frequent family in the local dataset.
+model,mimo-v2.5,direct30_full155,155,79,51.0%,43.2%-58.7%,58.1%,0.6%,Mimo
+model,Qwen3.5 Plus / 397B,direct30_full155,155,94,60.6%,52.8%-68.0%,71.0%,0.6%,DashScope + ModelScope
+model,Qwen3.5-27B,direct30_full155,155,89,57.4%,49.5%-64.9%,69.0%,0.0%,ModelScope
+model,Qwen3.5-35B-A3B,direct30_full155,155,88,56.8%,48.9%-64.3%,70.3%,0.0%,ModelScope + DashScope
+model,Gemini 3.1 Flash Lite,direct30_full155,155,92,59.4%,51.5%-66.8%,70.3%,0.0%,Google

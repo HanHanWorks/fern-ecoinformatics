@@ -1,0 +1,451 @@
+model_id,model,task,family,dataset_family_n,family_size_group,n,valid_count,correct,recall,top3_recall,invalid_count,main_confusion,main_confusion_count
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,乌毛蕨科,7,common_5_plus,7,7,1,14.3%,14.3%,0,鳞毛蕨科,5
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,冷蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,凤尾蕨科,5,common_5_plus,5,5,0,0.0%,40.0%,0,铁角蕨科,3
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,叉蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,水龙骨科,4
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,瓶尔小草科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,藤蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,水龙骨科,39,common_5_plus,39,39,37,94.9%,97.4%,0,禾叶蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,海金沙科,2,rare_1_2,2,2,1,50.0%,50.0%,0,乌毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,球子蕨科,4,medium_3_4,4,4,1,25.0%,25.0%,0,乌毛蕨科,3
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,瓶尔小草科,4,medium_3_4,4,4,2,50.0%,50.0%,0,紫萁科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,紫萁科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,石松科,7,common_5_plus,7,7,6,85.7%,100.0%,0,松叶蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,碗蕨科,4,medium_3_4,4,4,0,0.0%,50.0%,0,凤尾蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,松叶蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,紫萁科,3,medium_3_4,3,3,1,33.3%,33.3%,0,实蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,肾蕨科,2,rare_1_2,2,2,0,0.0%,50.0%,0,骨碎补科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,膜蕨科,3,medium_3_4,3,3,3,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,里白科,4,medium_3_4,4,4,4,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,骨碎补科,3,medium_3_4,3,3,0,0.0%,0.0%,0,水龙骨科,3
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,鳞毛蕨科,43,common_5_plus,43,43,31,72.1%,93.0%,0,叉蕨科,8
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,乌毛蕨科,7,common_5_plus,7,7,1,14.3%,14.3%,0,鳞毛蕨科,4
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,冷蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,肿足蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,凤尾蕨科,5,common_5_plus,5,5,1,20.0%,40.0%,0,铁角蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,叉蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,水龙骨科,4
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,叉蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,水龙骨科,39,common_5_plus,39,39,35,89.7%,97.4%,0,禾叶蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,海金沙科,2,rare_1_2,2,2,0,0.0%,0.0%,0,凤尾蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,球子蕨科,4,medium_3_4,4,4,1,25.0%,25.0%,0,乌毛蕨科,3
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,瓶尔小草科,4,medium_3_4,4,4,2,50.0%,50.0%,0,紫萁科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,紫萁科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,石松科,7,common_5_plus,7,7,7,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,碗蕨科,4,medium_3_4,4,4,0,0.0%,25.0%,0,乌毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,紫萁科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,紫萁科,3,medium_3_4,3,3,0,0.0%,0.0%,0,乌毛蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,肿足蕨科,2,rare_1_2,2,2,0,0.0%,50.0%,0,鳞毛蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,膜蕨科,3,medium_3_4,3,3,3,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,里白科,4,medium_3_4,4,4,3,75.0%,75.0%,0,乌毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,骨碎补科,3,medium_3_4,3,3,0,0.0%,0.0%,0,水龙骨科,3
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,鳞毛蕨科,43,common_5_plus,43,43,31,72.1%,93.0%,0,叉蕨科,7
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,乌毛蕨科,7,common_5_plus,3,3,1,33.3%,33.3%,0,肿足蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,冷蕨科,2,rare_1_2,2,2,1,50.0%,50.0%,0,肿足蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,凤尾蕨科,5,common_5_plus,2,2,1,50.0%,50.0%,0,铁角蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,叉蕨科,4,medium_3_4,2,2,0,0.0%,0.0%,0,水龙骨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,叉蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,水龙骨科,39,common_5_plus,3,3,3,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,海金沙科,2,rare_1_2,2,2,0,0.0%,0.0%,0,凤尾蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,球子蕨科,4,medium_3_4,2,2,1,50.0%,50.0%,0,乌毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,瓶尔小草科,4,medium_3_4,2,2,1,50.0%,50.0%,0,紫萁科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,紫萁科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,石松科,7,common_5_plus,3,3,3,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,碗蕨科,4,medium_3_4,2,2,0,0.0%,50.0%,0,乌毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,松叶蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,紫萁科,3,medium_3_4,2,2,0,0.0%,0.0%,0,实蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,膜蕨科,3,medium_3_4,2,2,2,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,50.0%,0,球子蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,里白科,4,medium_3_4,2,2,2,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,骨碎补科,3,medium_3_4,2,2,0,0.0%,0.0%,0,水龙骨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,鳞毛蕨科,43,common_5_plus,3,3,3,100.0%,100.0%,0,,0
+mimo_v2.5,mimo-v2.5,direct30_full155,乌毛蕨科,7,common_5_plus,7,7,1,14.3%,14.3%,0,鳞毛蕨科,5
+mimo_v2.5,mimo-v2.5,direct30_full155,冷蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,凤尾蕨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,凤尾蕨科,5,common_5_plus,5,5,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,叉蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,水龙骨科,4
+mimo_v2.5,mimo-v2.5,direct30_full155,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,水龙骨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,藤蕨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+mimo_v2.5,mimo-v2.5,direct30_full155,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+mimo_v2.5,mimo-v2.5,direct30_full155,水龙骨科,39,common_5_plus,39,38,35,89.7%,92.3%,1,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,海金沙科,2,rare_1_2,2,2,0,0.0%,0.0%,0,水龙骨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,球子蕨科,4,medium_3_4,4,4,1,25.0%,25.0%,0,乌毛蕨科,3
+mimo_v2.5,mimo-v2.5,direct30_full155,瓶尔小草科,4,medium_3_4,4,4,0,0.0%,50.0%,0,鳞毛蕨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,爬树蕨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,石松科,7,common_5_plus,7,7,4,57.1%,57.1%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,碗蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,凤尾蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,紫萁科,3,medium_3_4,3,3,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,膜蕨科,3,medium_3_4,3,3,1,33.3%,66.7%,0,凤尾蕨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+mimo_v2.5,mimo-v2.5,direct30_full155,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+mimo_v2.5,mimo-v2.5,direct30_full155,里白科,4,medium_3_4,4,4,0,0.0%,0.0%,0,鳞毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+mimo_v2.5,mimo-v2.5,direct30_full155,骨碎补科,3,medium_3_4,3,3,0,0.0%,0.0%,0,水龙骨科,3
+mimo_v2.5,mimo-v2.5,direct30_full155,鳞毛蕨科,43,common_5_plus,43,43,32,74.4%,88.4%,0,叉蕨科,6
+mimo_v2.5,mimo-v2.5,taxonomy_full155,乌毛蕨科,7,common_5_plus,7,7,1,14.3%,14.3%,0,鳞毛蕨科,3
+mimo_v2.5,mimo-v2.5,taxonomy_full155,冷蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_full155,凤尾蕨科,5,common_5_plus,5,5,0,0.0%,0.0%,0,乌毛蕨科,4
+mimo_v2.5,mimo-v2.5,taxonomy_full155,叉蕨科,4,medium_3_4,4,4,0,0.0%,50.0%,0,水龙骨科,4
+mimo_v2.5,mimo-v2.5,taxonomy_full155,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_full155,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+mimo_v2.5,mimo-v2.5,taxonomy_full155,槐叶蘋科,1,rare_1_2,1,1,0,0.0%,0.0%,0,松叶蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,水龙骨科,39,common_5_plus,39,38,32,82.1%,82.1%,1,乌毛蕨科,5
+mimo_v2.5,mimo-v2.5,taxonomy_full155,海金沙科,2,rare_1_2,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_full155,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,球子蕨科,4,medium_3_4,4,4,1,25.0%,25.0%,0,乌毛蕨科,3
+mimo_v2.5,mimo-v2.5,taxonomy_full155,瓶尔小草科,4,medium_3_4,4,4,1,25.0%,50.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_full155,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,合囊蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,石松科,7,common_5_plus,7,7,3,42.9%,42.9%,0,乌毛蕨科,4
+mimo_v2.5,mimo-v2.5,taxonomy_full155,碗蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,乌毛蕨科,4
+mimo_v2.5,mimo-v2.5,taxonomy_full155,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,紫萁科,3,medium_3_4,3,3,0,0.0%,0.0%,0,乌毛蕨科,3
+mimo_v2.5,mimo-v2.5,taxonomy_full155,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,叉蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,肾蕨科,2,rare_1_2,2,2,0,0.0%,50.0%,0,骨碎补科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_full155,膜蕨科,3,medium_3_4,3,3,0,0.0%,33.3%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,蘋科,1,rare_1_2,1,1,0,0.0%,0.0%,0,槐叶蘋科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,里白科,4,medium_3_4,4,4,0,0.0%,0.0%,0,乌毛蕨科,4
+mimo_v2.5,mimo-v2.5,taxonomy_full155,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+mimo_v2.5,mimo-v2.5,taxonomy_full155,骨碎补科,3,medium_3_4,3,3,0,0.0%,66.7%,0,水龙骨科,3
+mimo_v2.5,mimo-v2.5,taxonomy_full155,鳞毛蕨科,43,common_5_plus,43,43,22,51.2%,60.5%,0,乌毛蕨科,7
+mimo_v2.5,mimo-v2.5,taxonomy_l3,乌毛蕨科,7,common_5_plus,3,3,1,33.3%,33.3%,0,鳞毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,冷蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,凤尾蕨科,5,common_5_plus,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,叉蕨科,4,medium_3_4,2,2,0,0.0%,0.0%,0,水龙骨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+mimo_v2.5,mimo-v2.5,taxonomy_l3,槐叶蘋科,1,rare_1_2,1,1,0,0.0%,0.0%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,水龙骨科,39,common_5_plus,3,3,3,100.0%,100.0%,0,,0
+mimo_v2.5,mimo-v2.5,taxonomy_l3,海金沙科,2,rare_1_2,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,球子蕨科,4,medium_3_4,2,2,1,50.0%,50.0%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,瓶尔小草科,4,medium_3_4,2,2,1,50.0%,50.0%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,合囊蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,石松科,7,common_5_plus,3,3,1,33.3%,33.3%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,碗蕨科,4,medium_3_4,2,2,0,0.0%,0.0%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,紫萁科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,紫萁科,3,medium_3_4,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,翼盖蕨科,1,rare_1_2,1,0,0,0.0%,0.0%,1,INVALID_OOV::科名,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,肾蕨科,2,rare_1_2,2,2,0,0.0%,50.0%,0,骨碎补科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,膜蕨科,3,medium_3_4,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,蘋科,1,rare_1_2,1,1,0,0.0%,0.0%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,里白科,4,medium_3_4,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,铁角蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,骨碎补科,3,medium_3_4,2,2,0,0.0%,50.0%,0,水龙骨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,鳞毛蕨科,43,common_5_plus,3,3,2,66.7%,66.7%,0,肾蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,乌毛蕨科,7,common_5_plus,7,7,1,14.3%,42.9%,0,鳞毛蕨科,5
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,冷蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,铁角蕨科,2
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,凤尾蕨科,5,common_5_plus,5,5,0,0.0%,20.0%,0,铁角蕨科,3
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,叉蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,水龙骨科,4
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,合囊蕨科,2,rare_1_2,2,2,1,50.0%,50.0%,0,水龙骨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,水龙骨科,39,common_5_plus,39,39,37,94.9%,97.4%,0,骨碎补科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,海金沙科,2,rare_1_2,2,2,1,50.0%,50.0%,0,紫萁科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,球子蕨科,4,medium_3_4,4,4,1,25.0%,25.0%,0,乌毛蕨科,3
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,瓶尔小草科,4,medium_3_4,4,4,0,0.0%,25.0%,0,紫萁科,2
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,爬树蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,石松科,7,common_5_plus,7,7,5,71.4%,85.7%,0,松叶蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,碗蕨科,4,medium_3_4,4,4,0,0.0%,25.0%,0,凤尾蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,爬树蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,紫萁科,3,medium_3_4,3,3,0,0.0%,0.0%,0,肾蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,膜蕨科,3,medium_3_4,3,3,2,66.7%,66.7%,0,蹄盖蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,里白科,4,medium_3_4,4,4,4,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,铁角蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,蹄盖蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,骨碎补科,3,medium_3_4,3,3,0,0.0%,66.7%,0,水龙骨科,3
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,鳞毛蕨科,43,common_5_plus,43,43,33,76.7%,95.3%,0,叉蕨科,6
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,乌毛蕨科,7,common_5_plus,7,7,1,14.3%,42.9%,0,鳞毛蕨科,5
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,冷蕨科,2,rare_1_2,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,凤尾蕨科,5,common_5_plus,5,5,0,0.0%,20.0%,0,铁角蕨科,3
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,叉蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,水龙骨科,4
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,瓶尔小草科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,实蕨科,2,rare_1_2,2,2,0,0.0%,50.0%,0,水龙骨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,水龙骨科,39,common_5_plus,39,39,38,97.4%,97.4%,0,里白科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,海金沙科,2,rare_1_2,2,2,1,50.0%,100.0%,0,紫萁科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,球子蕨科,4,medium_3_4,4,4,1,25.0%,25.0%,0,乌毛蕨科,3
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,瓶尔小草科,4,medium_3_4,4,4,2,50.0%,75.0%,0,蹄盖蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,里白科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,石松科,7,common_5_plus,7,7,5,71.4%,100.0%,0,松叶蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,碗蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,凤尾蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,碗蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,紫萁科,3,medium_3_4,3,3,0,0.0%,33.3%,0,乌毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,膜蕨科,3,medium_3_4,3,3,2,66.7%,66.7%,0,蹄盖蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,里白科,4,medium_3_4,4,4,2,50.0%,50.0%,0,鳞毛蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,骨碎补科,3,medium_3_4,3,3,0,0.0%,100.0%,0,水龙骨科,3
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,鳞毛蕨科,43,common_5_plus,43,43,33,76.7%,90.7%,0,叉蕨科,6
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,乌毛蕨科,7,common_5_plus,3,3,1,33.3%,33.3%,0,鳞毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,冷蕨科,2,rare_1_2,2,2,1,50.0%,50.0%,0,凤尾蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,凤尾蕨科,5,common_5_plus,2,2,0,0.0%,50.0%,0,铁角蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,叉蕨科,4,medium_3_4,2,2,0,0.0%,0.0%,0,水龙骨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,瓶尔小草科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,实蕨科,2,rare_1_2,2,2,0,0.0%,50.0%,0,水龙骨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,水龙骨科,39,common_5_plus,3,3,3,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,海金沙科,2,rare_1_2,2,2,1,50.0%,100.0%,0,紫萁科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,球子蕨科,4,medium_3_4,2,2,1,50.0%,50.0%,0,乌毛蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,瓶尔小草科,4,medium_3_4,2,2,1,50.0%,50.0%,0,蹄盖蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,里白科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,石松科,7,common_5_plus,3,3,2,66.7%,100.0%,0,松叶蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,碗蕨科,4,medium_3_4,2,2,0,0.0%,0.0%,0,凤尾蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,碗蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,紫萁科,3,medium_3_4,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,膜蕨科,3,medium_3_4,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,里白科,4,medium_3_4,2,2,0,0.0%,0.0%,0,蹄盖蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,骨碎补科,3,medium_3_4,2,2,0,0.0%,100.0%,0,水龙骨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,鳞毛蕨科,43,common_5_plus,3,3,3,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,乌毛蕨科,7,common_5_plus,7,7,1,14.3%,14.3%,0,鳞毛蕨科,5
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,冷蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,铁角蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,凤尾蕨科,5,common_5_plus,5,5,0,0.0%,80.0%,0,铁角蕨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,叉蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,水龙骨科,4
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,瓶尔小草科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,藤蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,水龙骨科,39,common_5_plus,39,39,37,94.9%,94.9%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,海金沙科,2,rare_1_2,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,球子蕨科,4,medium_3_4,4,4,1,25.0%,25.0%,0,乌毛蕨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,瓶尔小草科,4,medium_3_4,4,4,2,50.0%,50.0%,0,冷蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,爬树蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,石松科,7,common_5_plus,7,7,6,85.7%,85.7%,0,藤蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,碗蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,海金沙科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,爬树蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,紫萁科,3,medium_3_4,3,3,0,0.0%,33.3%,0,乌毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,膜蕨科,3,medium_3_4,3,3,2,66.7%,66.7%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,里白科,4,medium_3_4,4,4,1,25.0%,50.0%,0,鳞毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,铁角蕨科,1,rare_1_2,1,1,0,0.0%,100.0%,0,凤尾蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,骨碎补科,3,medium_3_4,3,3,0,0.0%,100.0%,0,水龙骨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,鳞毛蕨科,43,common_5_plus,43,43,32,74.4%,97.7%,0,叉蕨科,6
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,乌毛蕨科,7,common_5_plus,7,7,1,14.3%,14.3%,0,鳞毛蕨科,5
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,冷蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,蹄盖蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,凤尾蕨科,5,common_5_plus,5,5,0,0.0%,0.0%,0,铁角蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,叉蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,水龙骨科,4
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,实蕨科,2,rare_1_2,2,2,0,0.0%,50.0%,0,藤蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,槐叶蘋科,1,rare_1_2,1,1,0,0.0%,100.0%,0,蘋科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,水龙骨科,39,common_5_plus,39,39,37,94.9%,97.4%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,海金沙科,2,rare_1_2,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,球子蕨科,4,medium_3_4,4,4,1,25.0%,50.0%,0,乌毛蕨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,瓶尔小草科,4,medium_3_4,4,4,3,75.0%,75.0%,0,蹄盖蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,紫萁科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,石松科,7,common_5_plus,7,7,6,85.7%,100.0%,0,松叶蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,碗蕨科,4,medium_3_4,4,4,0,0.0%,50.0%,0,蹄盖蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,紫萁科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,紫萁科,3,medium_3_4,3,3,0,0.0%,0.0%,0,爬树蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,膜蕨科,3,medium_3_4,3,3,3,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,里白科,4,medium_3_4,4,4,0,0.0%,0.0%,0,蹄盖蕨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,骨碎补科,3,medium_3_4,3,3,0,0.0%,66.7%,0,水龙骨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,鳞毛蕨科,43,common_5_plus,43,43,34,79.1%,97.7%,0,叉蕨科,6
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,乌毛蕨科,7,common_5_plus,3,3,1,33.3%,33.3%,0,鳞毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,冷蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,蹄盖蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,凤尾蕨科,5,common_5_plus,2,2,0,0.0%,0.0%,0,铁角蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,叉蕨科,4,medium_3_4,2,2,0,0.0%,0.0%,0,水龙骨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,槐叶蘋科,1,rare_1_2,1,1,0,0.0%,100.0%,0,蘋科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,水龙骨科,39,common_5_plus,3,3,3,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,海金沙科,2,rare_1_2,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,球子蕨科,4,medium_3_4,2,2,1,50.0%,100.0%,0,乌毛蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,瓶尔小草科,4,medium_3_4,2,2,1,50.0%,100.0%,0,紫萁科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,石松科,7,common_5_plus,3,3,2,66.7%,100.0%,0,松叶蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,碗蕨科,4,medium_3_4,2,2,0,0.0%,50.0%,0,睫毛蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,紫萁科,3,medium_3_4,2,2,0,0.0%,0.0%,0,藤蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,膜蕨科,3,medium_3_4,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,里白科,4,medium_3_4,2,2,0,0.0%,0.0%,0,铁角蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,骨碎补科,3,medium_3_4,2,2,0,0.0%,100.0%,0,水龙骨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,鳞毛蕨科,43,common_5_plus,3,3,3,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,乌毛蕨科,7,common_5_plus,7,7,1,14.3%,28.6%,0,鳞毛蕨科,5
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,冷蕨科,2,rare_1_2,2,2,0,0.0%,50.0%,0,骨碎补科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,凤尾蕨科,5,common_5_plus,5,5,0,0.0%,40.0%,0,铁角蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,叉蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,水龙骨科,4
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,实蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,藤蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,水龙骨科,39,common_5_plus,39,39,38,97.4%,97.4%,0,乌毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,海金沙科,2,rare_1_2,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,球子蕨科,4,medium_3_4,4,4,1,25.0%,25.0%,0,乌毛蕨科,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,瓶尔小草科,4,medium_3_4,4,4,2,50.0%,75.0%,0,蹄盖蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,乌毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,石松科,7,common_5_plus,7,7,7,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,碗蕨科,4,medium_3_4,4,4,0,0.0%,25.0%,0,凤尾蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,禾叶蕨科,2,rare_1_2,2,1,0,0.0%,0.0%,1,乌毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,紫萁科,3,medium_3_4,3,3,0,0.0%,0.0%,0,实蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,膜蕨科,3,medium_3_4,3,3,1,33.3%,66.7%,0,凤尾蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,里白科,4,medium_3_4,4,4,3,75.0%,75.0%,0,乌毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,骨碎补科,3,medium_3_4,3,3,0,0.0%,33.3%,0,水龙骨科,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,鳞毛蕨科,43,common_5_plus,43,43,34,79.1%,95.3%,0,叉蕨科,6
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,乌毛蕨科,7,common_5_plus,7,7,1,14.3%,28.6%,0,鳞毛蕨科,5
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,冷蕨科,2,rare_1_2,2,2,1,50.0%,50.0%,0,膜蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,凤尾蕨科,5,common_5_plus,5,5,0,0.0%,20.0%,0,水龙骨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,叉蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,水龙骨科,4
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,叉蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,实蕨科,2,rare_1_2,2,2,0,0.0%,50.0%,0,水龙骨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,水龙骨科,39,common_5_plus,39,38,37,94.9%,94.9%,1,INVALID_EMPTY,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,海金沙科,2,rare_1_2,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,球子蕨科,4,medium_3_4,4,4,1,25.0%,25.0%,0,乌毛蕨科,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,瓶尔小草科,4,medium_3_4,4,4,4,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,紫萁科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,石松科,7,common_5_plus,7,7,7,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,碗蕨科,4,medium_3_4,4,4,0,0.0%,0.0%,0,实蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,实蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,紫萁科,3,medium_3_4,3,3,0,0.0%,0.0%,0,乌毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,膜蕨科,3,medium_3_4,3,3,2,66.7%,66.7%,0,海金沙科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,里白科,4,medium_3_4,4,4,1,25.0%,50.0%,0,乌毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,铁角蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,骨碎补科,3,medium_3_4,3,3,0,0.0%,66.7%,0,水龙骨科,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,鳞毛蕨科,43,common_5_plus,43,43,32,74.4%,97.7%,0,叉蕨科,6
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,乌毛蕨科,7,common_5_plus,3,3,1,33.3%,66.7%,0,鳞毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,冷蕨科,2,rare_1_2,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,凤尾蕨科,5,common_5_plus,2,2,0,0.0%,50.0%,0,铁角蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,叉蕨科,4,medium_3_4,2,2,0,0.0%,0.0%,0,水龙骨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,合囊蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,瓶尔小草科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,实蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,松叶蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,槐叶蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,水龙骨科,39,common_5_plus,3,3,3,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,海金沙科,2,rare_1_2,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,爬树蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,球子蕨科,4,medium_3_4,2,2,1,50.0%,50.0%,0,乌毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,瓶尔小草科,4,medium_3_4,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,睫毛蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,乌毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,石松科,7,common_5_plus,3,3,3,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,碗蕨科,4,medium_3_4,2,2,0,0.0%,0.0%,0,凤尾蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,禾叶蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,合囊蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,紫萁科,3,medium_3_4,2,2,0,0.0%,0.0%,0,水龙骨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,翼盖蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,鳞毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,肾蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,肿足蕨科,2,rare_1_2,2,2,0,0.0%,0.0%,0,鳞毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,膜蕨科,3,medium_3_4,2,2,2,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,舌蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,藤蕨科,1,rare_1_2,1,1,0,0.0%,0.0%,0,骨碎补科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,蘋科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,蹄盖蕨科,2,rare_1_2,2,2,1,50.0%,100.0%,0,球子蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,里白科,4,medium_3_4,2,2,0,0.0%,0.0%,0,乌毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,铁角蕨科,1,rare_1_2,1,1,1,100.0%,100.0%,0,,0
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,骨碎补科,3,medium_3_4,2,2,0,0.0%,50.0%,0,水龙骨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,鳞毛蕨科,43,common_5_plus,3,3,3,100.0%,100.0%,0,,0

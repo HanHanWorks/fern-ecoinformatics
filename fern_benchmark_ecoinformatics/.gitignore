@@ -1,0 +1,43 @@
+# Credentials and environment files
+.env
+*.key
+*.pem
+.env.*
+
+# Image assets. The 1,432 openly licensed images are deposited as an archive
+# with a DOI (Zenodo or an equivalent repository), not committed here: they
+# are several hundred megabytes, which is well beyond what a git repository
+# should carry. `tools/stage_release.py --images` stages them into
+# data/open_images/ so the archive can be assembled and its LICENCES.csv
+# generated; the images themselves stay untracked.
+data/open_images/*.jpg
+data/open_images/*.jpeg
+data/open_images/*.png
+**/images/
+**/raw/
+
+# Model checkpoints, which are downloaded rather than distributed
+weights/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Internal working material
+*.log
+**/state/
+**/tmp/
+__pycache__/
+*.py[cod]
+
+# Build and editorial artefacts
+.venv/
+venv/
+.DS_Store
+*.docx
+*.pdf
+
+# ...except the vector figure files that main.tex includes. Elsevier requires
+# line art at 1000 dpi or as vector, and these are the vector renders, not
+# exports of a compiled document.
+!manuscript/latex/figures/*.pdf

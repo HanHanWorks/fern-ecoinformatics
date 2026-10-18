@@ -1,0 +1,25 @@
+# Credentials
+.env
+*.key
+*.pem
+
+# Restricted or large image/data assets
+ferns_dataset/images/
+paper_analysis/text_masked_dataset/original/
+paper_analysis/text_masked_dataset/masked/
+paper_analysis/text_masked_dataset/preview/
+paper_analysis/supplementary_experiments/datasets/*/images/
+**/raw/
+**/state/
+**/tmp/
+**/logs/
+
+# Python / OS
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+
+# Generated manuscript exports
+*.docx
+*.pdf

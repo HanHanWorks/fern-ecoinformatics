@@ -1,0 +1,24 @@
+# Pinned to the versions used for the reported experiments, except for torch
+# and torchvision, whose build must match the local CUDA toolkit. See the
+# comment below before installing.
+torch==2.10.0
+torchvision
+open_clip_torch==3.3.0
+timm==1.0.30
+numpy>=1.26
+Pillow>=10.0
+matplotlib>=3.8
+
+# torch and torchvision are installed here without a CUDA index URL because
+# the correct wheel depends on the machine. For CUDA 12.6, which is what the
+# reported runs used:
+#
+#   pip install torch==2.10.0 torchvision --index-url https://download.pytorch.org/whl/cu126
+#
+# A CPU-only install reproduces every table and figure in the paper, because
+# the table and figure scripts read released result files and never run a
+# model. It will not retrain anything at a useful speed.
+
+# Not a Python package: the text-leakage audit shells out to the Tesseract
+# OCR binary (code/baselines/text_leakage.py). Install it with the system
+# package manager, for example `apt install tesseract-ocr`.

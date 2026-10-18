@@ -1,0 +1,13 @@
+provider,model,negative_group,manifest_group_n,n,rejection_correct,rejection_accuracy,rejection_95ci,false_positive_count,false_positive_rate,false_positive_95ci,high_conf_false_positive_count,main_false_positive_families
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,angiosperm,15,15,15,100.0%,79.6%-100.0%,0,0.0%,0.0%-20.4%,0,
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,bryophyte_liverwort,15,15,12,80.0%,54.8%-93.0%,3,20.0%,7.0%-45.2%,3,瓶尔小草科:2;松叶蕨科:1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,candidate_out_fern,15,15,2,13.3%,3.7%-37.9%,9,60.0%,35.7%-80.2%,9,卷柏科:5;石松科:3;膜蕨科:1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,gymnosperm_cycad,15,15,15,100.0%,79.6%-100.0%,0,0.0%,0.0%-20.4%,0,
+dashscope-qwen397b,Qwen3.5 Plus / 397B,angiosperm,15,15,15,100.0%,79.6%-100.0%,0,0.0%,0.0%-20.4%,0,
+dashscope-qwen397b,Qwen3.5 Plus / 397B,bryophyte_liverwort,15,15,14,93.3%,70.2%-98.8%,1,6.7%,1.2%-29.8%,1,瓶尔小草科:1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,candidate_out_fern,15,15,11,73.3%,48.0%-89.1%,4,26.7%,10.9%-52.0%,4,石松科:3;鳞毛蕨科:1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,gymnosperm_cycad,15,15,15,100.0%,79.6%-100.0%,0,0.0%,0.0%-20.4%,0,
+google-gemini,Gemini 3.1 Flash Lite,angiosperm,15,15,15,100.0%,79.6%-100.0%,0,0.0%,0.0%-20.4%,0,
+google-gemini,Gemini 3.1 Flash Lite,bryophyte_liverwort,15,15,11,73.3%,48.0%-89.1%,4,26.7%,10.9%-52.0%,3,瓶尔小草科:2;膜蕨科:1;石松科:1
+google-gemini,Gemini 3.1 Flash Lite,candidate_out_fern,15,15,13,86.7%,62.1%-96.3%,2,13.3%,3.7%-37.9%,2,里白科:1;石松科:1
+google-gemini,Gemini 3.1 Flash Lite,gymnosperm_cycad,15,15,15,100.0%,79.6%-100.0%,0,0.0%,0.0%-20.4%,0,

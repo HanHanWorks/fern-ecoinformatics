@@ -1,0 +1,192 @@
+model_id,model,species_id,expected_species,expected_genus,predicted_species,predicted_genus,genus_correct,top3_genus_hit,family_correct,predicted_family
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_114,中华剑蕨,Loxogramme,金鸡脚假瘤蕨,Selliguea,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_115,秦岭槲蕨,Drynaria,三出假瘤蕨,Selliguea,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_116,槲蕨,Drynaria,三出假瘤蕨,Selliguea,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_117,崖姜蕨,Aglaomorpha,雨蕨,Selliguea,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_118,节肢蕨,Arthromeris,瓦氏鹿角蕨,Platycerium,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_119,琉璃节肢蕨,Arthromeris,光石韦,Pyrrosia,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_120,金鸡脚假瘤蕨,Selliguea,毡毛石韦,Pyrrosia,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_121,黑鳞假瘤蕨,Selliguea,石韦,Pyrrosia,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_122,三出假瘤蕨,Selliguea,钱币石韦,Pyrrosia,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_123,雨蕨,Selliguea,庐山石韦,Pyrrosia,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_124,瓦氏鹿角蕨,Platycerium,篦齿蕨,Goniophlebium,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_125,石韦,Pyrrosia,友水龙骨,Goniophlebium,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_126,光石韦,Pyrrosia,友水龙骨,Goniophlebium,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_127,华北石韦,Pyrrosia,膜叶星蕨,Microsorum,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_128,毡毛石韦,Pyrrosia,星蕨,Microsorum,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_129,钱币石韦,Pyrrosia,星蕨,Microsorum,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_130,有柄石韦,Pyrrosia,线蕨,Leptochilus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_131,庐山石韦,Pyrrosia,宽羽线蕨,Leptochilus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_132,篦齿蕨,Goniophlebium,断线蕨,Leptochilus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_133,友水龙骨,Goniophlebium,瓦韦,Lepisorus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_134,星蕨,Microsorum,瓦韦,Lepisorus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_135,膜叶星蕨,Microsorum,瓦韦,Lepisorus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_136,线蕨,Leptochilus,扭瓦韦,Lepisorus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_137,曲边线蕨,Leptochilus,大瓦韦,Lepisorus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_138,宽羽线蕨,Leptochilus,两色瓦韦,Lepisorus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_139,断线蕨,Leptochilus,高山瓦韦,Lepisorus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_140,瓦韦,Lepisorus,大瓦韦,Lepisorus,1,1,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_141,扭瓦韦,Lepisorus,瓦韦,Lepisorus,1,1,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_142,大瓦韦,Lepisorus,扇蕨,Neocheiropteris,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_143,两色瓦韦,Lepisorus,江南星蕨,Neolepisorus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_144,白边瓦韦,Lepisorus,盾蕨,Neolepisorus,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_145,高山瓦韦,Lepisorus,高平蕨,Lemmaphyllum,0,1,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_146,扇蕨,Neocheiropteris,伏石蕨,Lemmaphyllum,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_147,盾蕨,Neolepisorus,伏石蕨,Lemmaphyllum,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_148,江南星蕨,Neolepisorus,欧亚水龙骨,Polypodium,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_149,鳞果星蕨,Lepidomicrosorium,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_150,高平蕨,Lemmaphyllum,伏石蕨,Lemmaphyllum,1,1,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_151,伏石蕨,Lemmaphyllum,无匹配物种,,0,0,1,水龙骨科
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,FERNS_152,欧亚水龙骨,Polypodium,无,,0,0,0,苏铁科
+mimo_v2.5,mimo-v2.5,FERNS_114,中华剑蕨,Loxogramme,金鸡脚假瘤蕨,Selliguea,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_115,秦岭槲蕨,Drynaria,三出假瘤蕨,Selliguea,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_116,槲蕨,Drynaria,金鸡脚假瘤蕨,Selliguea,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_117,崖姜蕨,Aglaomorpha,雨蕨,Selliguea,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_118,节肢蕨,Arthromeris,瓦氏鹿角蕨,Platycerium,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_119,琉璃节肢蕨,Arthromeris,石韦,Pyrrosia,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_120,金鸡脚假瘤蕨,Selliguea,毡毛石韦,Pyrrosia,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_121,黑鳞假瘤蕨,Selliguea,石韦,Pyrrosia,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_122,三出假瘤蕨,Selliguea,钱币石韦,Pyrrosia,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_123,雨蕨,Selliguea,庐山石韦,Pyrrosia,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_124,瓦氏鹿角蕨,Platycerium,石韦,Pyrrosia,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_125,石韦,Pyrrosia,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_126,光石韦,Pyrrosia,友水龙骨,Goniophlebium,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_127,华北石韦,Pyrrosia,膜叶星蕨,Microsorum,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_128,毡毛石韦,Pyrrosia,节肢蕨,Arthromeris,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_129,钱币石韦,Pyrrosia,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_130,有柄石韦,Pyrrosia,线蕨,Leptochilus,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_131,庐山石韦,Pyrrosia,线蕨,Leptochilus,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_132,篦齿蕨,Goniophlebium,断线蕨,Leptochilus,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_133,友水龙骨,Goniophlebium,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_134,星蕨,Microsorum,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_135,膜叶星蕨,Microsorum,瓦韦,Lepisorus,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_136,线蕨,Leptochilus,瓦韦,Lepisorus,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_137,曲边线蕨,Leptochilus,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_138,宽羽线蕨,Leptochilus,两色瓦韦,Lepisorus,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_139,断线蕨,Leptochilus,高山瓦韦,Lepisorus,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_141,扭瓦韦,Lepisorus,瓦韦,Lepisorus,1,1,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_142,大瓦韦,Lepisorus,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_143,两色瓦韦,Lepisorus,江南星蕨,Neolepisorus,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_144,白边瓦韦,Lepisorus,盾蕨,Neolepisorus,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_145,高山瓦韦,Lepisorus,扇蕨,Neocheiropteris,0,1,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_146,扇蕨,Neocheiropteris,瓦韦,Lepisorus,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_147,盾蕨,Neolepisorus,伏石蕨,Lemmaphyllum,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_148,江南星蕨,Neolepisorus,欧亚水龙骨,Polypodium,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_149,鳞果星蕨,Lepidomicrosorium,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_150,高平蕨,Lemmaphyllum,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_151,伏石蕨,Lemmaphyllum,无（图片中植物不在候选列表）,,0,0,1,水龙骨科
+mimo_v2.5,mimo-v2.5,FERNS_152,欧亚水龙骨,Polypodium,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_114,中华剑蕨,Loxogramme,金鸡脚假瘤蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_115,秦岭槲蕨,Drynaria,三出假瘤蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_116,槲蕨,Drynaria,金鸡脚假瘤蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_117,崖姜蕨,Aglaomorpha,雨蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_118,节肢蕨,Arthromeris,瓦氏鹿角蕨,Platycerium,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_119,琉璃节肢蕨,Arthromeris,华北石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_121,黑鳞假瘤蕨,Selliguea,石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_122,三出假瘤蕨,Selliguea,有柄石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_123,雨蕨,Selliguea,庐山石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_124,瓦氏鹿角蕨,Platycerium,篦齿蕨,Goniophlebium,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_126,光石韦,Pyrrosia,友水龙骨,Goniophlebium,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_127,华北石韦,Pyrrosia,膜叶星蕨,Microsorum,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_128,毡毛石韦,Pyrrosia,星蕨,Microsorum,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_130,有柄石韦,Pyrrosia,线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_131,庐山石韦,Pyrrosia,曲边线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_132,篦齿蕨,Goniophlebium,断线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_133,友水龙骨,Goniophlebium,瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_134,星蕨,Microsorum,线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_135,膜叶星蕨,Microsorum,瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_120,金鸡脚假瘤蕨,Selliguea,毡毛石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_125,石韦,Pyrrosia,友水龙骨,Goniophlebium,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_136,线蕨,Leptochilus,扭瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_137,曲边线蕨,Leptochilus,大瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_138,宽羽线蕨,Leptochilus,两色瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_139,断线蕨,Leptochilus,高山瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_141,扭瓦韦,Lepisorus,瓦韦,Lepisorus,1,1,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_142,大瓦韦,Lepisorus,高山瓦韦,Lepisorus,1,1,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_143,两色瓦韦,Lepisorus,江南星蕨,Neolepisorus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_144,白边瓦韦,Lepisorus,鳞果星蕨,Lepidomicrosorium,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_145,高山瓦韦,Lepisorus,扇蕨,Neocheiropteris,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_146,扇蕨,Neocheiropteris,伏石蕨,Lemmaphyllum,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_147,盾蕨,Neolepisorus,伏石蕨,Lemmaphyllum,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_148,江南星蕨,Neolepisorus,欧亚水龙骨,Polypodium,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_150,高平蕨,Lemmaphyllum,线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_151,伏石蕨,Lemmaphyllum,中华剑蕨,Loxogramme,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_152,欧亚水龙骨,Polypodium,石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_129,钱币石韦,Pyrrosia,星蕨,Microsorum,0,0,1,水龙骨科
+qwen3.5_27b,Qwen3.5-27B,FERNS_149,鳞果星蕨,Lepidomicrosorium,石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_114,中华剑蕨,Loxogramme,金鸡脚假瘤蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_115,秦岭槲蕨,Drynaria,三出假瘤蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_116,槲蕨,Drynaria,金鸡脚假瘤蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_117,崖姜蕨,Aglaomorpha,雨蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_118,节肢蕨,Arthromeris,瓦氏鹿角蕨,Platycerium,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_119,琉璃节肢蕨,Arthromeris,华北石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_120,金鸡脚假瘤蕨,Selliguea,毡毛石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_121,黑鳞假瘤蕨,Selliguea,石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_122,三出假瘤蕨,Selliguea,有柄石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_123,雨蕨,Selliguea,庐山石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_124,瓦氏鹿角蕨,Platycerium,篦齿蕨,Goniophlebium,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_125,石韦,Pyrrosia,友水龙骨,Goniophlebium,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_126,光石韦,Pyrrosia,友水龙骨,Goniophlebium,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_127,华北石韦,Pyrrosia,膜叶星蕨,Microsorum,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_128,毡毛石韦,Pyrrosia,星蕨,Microsorum,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_129,钱币石韦,Pyrrosia,鳞果星蕨,Lepidomicrosorium,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_130,有柄石韦,Pyrrosia,线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_131,庐山石韦,Pyrrosia,宽羽线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_132,篦齿蕨,Goniophlebium,断线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_133,友水龙骨,Goniophlebium,瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_134,星蕨,Microsorum,瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_135,膜叶星蕨,Microsorum,瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_136,线蕨,Leptochilus,瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_137,曲边线蕨,Leptochilus,大瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_138,宽羽线蕨,Leptochilus,两色瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_139,断线蕨,Leptochilus,高山瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_141,扭瓦韦,Lepisorus,瓦韦,Lepisorus,1,1,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_142,大瓦韦,Lepisorus,瓦韦,Lepisorus,1,1,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_143,两色瓦韦,Lepisorus,江南星蕨,Neolepisorus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_144,白边瓦韦,Lepisorus,盾蕨,Neolepisorus,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_145,高山瓦韦,Lepisorus,扇蕨,Neocheiropteris,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_146,扇蕨,Neocheiropteris,伏石蕨,Lemmaphyllum,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_147,盾蕨,Neolepisorus,伏石蕨,Lemmaphyllum,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_148,江南星蕨,Neolepisorus,欧亚水龙骨,Polypodium,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_149,鳞果星蕨,Lepidomicrosorium,短柄禾叶蕨,Grammitis,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_150,高平蕨,Lemmaphyllum,虎尾蒿蕨,,0,0,1,水龙骨科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_151,伏石蕨,Lemmaphyllum,无匹配物种,,0,0,0,苏铁科
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,FERNS_152,欧亚水龙骨,Polypodium,石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_114,中华剑蕨,Loxogramme,金鸡脚假瘤蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_115,秦岭槲蕨,Drynaria,三出假瘤蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_116,槲蕨,Drynaria,金鸡脚假瘤蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_117,崖姜蕨,Aglaomorpha,雨蕨,Selliguea,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_118,节肢蕨,Arthromeris,瓦氏鹿角蕨,Platycerium,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_119,琉璃节肢蕨,Arthromeris,光石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_120,金鸡脚假瘤蕨,Selliguea,毡毛石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_121,黑鳞假瘤蕨,Selliguea,石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_122,三出假瘤蕨,Selliguea,有柄石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_123,雨蕨,Selliguea,庐山石韦,Pyrrosia,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_124,瓦氏鹿角蕨,Platycerium,篦齿蕨,Goniophlebium,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_125,石韦,Pyrrosia,友水龙骨,Goniophlebium,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_126,光石韦,Pyrrosia,友水龙骨,Goniophlebium,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_127,华北石韦,Pyrrosia,膜叶星蕨,Microsorum,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_128,毡毛石韦,Pyrrosia,星蕨,Microsorum,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_129,钱币石韦,Pyrrosia,星蕨,Microsorum,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_130,有柄石韦,Pyrrosia,线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_131,庐山石韦,Pyrrosia,线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_132,篦齿蕨,Goniophlebium,断线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_133,友水龙骨,Goniophlebium,瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_134,星蕨,Microsorum,瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_135,膜叶星蕨,Microsorum,瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_136,线蕨,Leptochilus,扭瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_137,曲边线蕨,Leptochilus,大瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_138,宽羽线蕨,Leptochilus,两色瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_139,断线蕨,Leptochilus,高山瓦韦,Lepisorus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_141,扭瓦韦,Lepisorus,瓦韦,Lepisorus,1,1,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_142,大瓦韦,Lepisorus,高山瓦韦,Lepisorus,1,1,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_143,两色瓦韦,Lepisorus,江南星蕨,Neolepisorus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_144,白边瓦韦,Lepisorus,盾蕨,Neolepisorus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_145,高山瓦韦,Lepisorus,扇蕨,Neocheiropteris,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_146,扇蕨,Neocheiropteris,伏石蕨,Lemmaphyllum,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_147,盾蕨,Neolepisorus,伏石蕨,Lemmaphyllum,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_148,江南星蕨,Neolepisorus,欧亚水龙骨,Polypodium,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_149,鳞果星蕨,Lepidomicrosorium,节肢蕨,Arthromeris,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_150,高平蕨,Lemmaphyllum,线蕨,Leptochilus,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_151,伏石蕨,Lemmaphyllum,槲蕨,Drynaria,0,0,1,水龙骨科
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,FERNS_152,欧亚水龙骨,Polypodium,中华剑蕨,Loxogramme,0,0,0,INVALID_OOV::苏铁科

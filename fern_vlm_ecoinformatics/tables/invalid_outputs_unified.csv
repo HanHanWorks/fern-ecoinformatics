@@ -1,0 +1,34 @@
+model,task,species_id,expected_family,predicted_family,expected_species,predicted_species,error,raw_response_head
+mimo-v2.5,direct30_full155,FERNS_129,水龙骨科,,钱币石韦,,,"{
+  ""selected_option"": """
+mimo-v2.5,taxonomy_l3,FERNS_054,翼盖蕨科,科名,翼盖蕨,,,"首先，用户要求我作为蕨类植物分类学专家，完成30科闭集识别。我需要从给定的30个标准科中选择一个作为selected_option，并从这30个科中选择top3。输出必须是严格的JSON格式，不能添加其他文字。
+
+给定的30个科列表如下：
+
+1. 乌毛蕨科 (Blechnaceae)
+
+2. 冷蕨科 (Cystopteridaceae)
+
+3. 凤尾蕨科 ("
+mimo-v2.5,taxonomy_full155,FERNS_117,水龙骨科,科名,崖姜蕨,,,"首先，用户要求我作为蕨类植物分类学专家，完成30科闭集识别。我需要从给定的30个标准科中选择一个作为selected_option，并从这30科中选择top3。输出必须是严格的JSON格式，不要添加其他文字。
+
+给定的30科列表如下：
+1. 乌毛蕨科 (Blechnaceae)
+2. 冷蕨科 (Cystopteridaceae)
+3. 凤尾蕨科 (Pteri"
+Qwen3.5 Plus / 397B,direct30_full155,FERNS_155,禾叶蕨科,,锯蕨,,,"{
+  ""selected_option"": ""乌毛蕨科"",
+  ""top3"": [""乌毛蕨科"", ""鳞毛蕨科"", ""凤尾蕨科""],
+  ""confidence"": 0.4,
+  ""reasoning"": ""图片中植物明确标注为苏铁科（Cycadaceae），包括苏铁、四川苏铁等，属于裸子植物，并不属于给定的30个蕨类候选科。但在形态上，苏铁具有一回羽状复叶"
+Qwen3.5 Plus / 397B,taxonomy_full155,FERNS_131,水龙骨科,,庐山石韦,,,"{
+  ""selected_option"": ""水龙骨科"",
+  ""top3"": [
+    ""水龙骨科"",
+    ""实蕨科"",
+    ""骨碎补科""
+  ],
+  ""confidence"": 0.99,
+  ""visible_features"": [
+    ""图片右上角明确标注“水龙骨科 Polypodiaceae”"",
+    ""根状茎纤细，密生褐色"

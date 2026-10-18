@@ -1,0 +1,10 @@
+provider,model,seed,paired_n,same_prediction_count,same_prediction_rate,changed_to_correct,changed_to_wrong
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,60,47,78.3%,1,12
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,60,48,80.0%,2,10
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,60,50,83.3%,0,10
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,60,53,88.3%,2,5
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,60,51,85.0%,2,7
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,60,50,83.3%,1,9
+google-gemini,Gemini 3.1 Flash Lite,20260512,60,56,93.3%,2,2
+google-gemini,Gemini 3.1 Flash Lite,20260513,60,54,90.0%,1,5
+google-gemini,Gemini 3.1 Flash Lite,20260514,60,57,95.0%,0,3

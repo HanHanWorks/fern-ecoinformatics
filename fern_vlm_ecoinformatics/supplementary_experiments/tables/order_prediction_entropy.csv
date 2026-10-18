@@ -1,0 +1,181 @@
+provider,model,sample_id,expected_family,n_predictions,unique_predictions,prediction_entropy,predictions
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_001,石松科,3,1,-0.000,石松科;石松科;石松科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_002,石松科,3,1,-0.000,石松科;石松科;石松科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_003,石松科,3,1,-0.000,松叶蕨科;松叶蕨科;松叶蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_008,瓶尔小草科,3,1,-0.000,蹄盖蕨科;蹄盖蕨科;蹄盖蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_009,瓶尔小草科,3,3,1.585,INVALID_EMPTY;瓶尔小草科;INVALID_OOV::阴地蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_012,松叶蕨科,3,1,-0.000,松叶蕨科;松叶蕨科;松叶蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_013,合囊蕨科,3,1,-0.000,膜蕨科;膜蕨科;膜蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_014,合囊蕨科,3,2,0.918,碗蕨科;海金沙科;海金沙科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_015,紫萁科,3,1,-0.000,藤蕨科;藤蕨科;藤蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_016,紫萁科,3,1,-0.000,海金沙科;海金沙科;海金沙科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_018,膜蕨科,3,1,-0.000,膜蕨科;膜蕨科;膜蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_019,膜蕨科,3,1,-0.000,膜蕨科;膜蕨科;膜蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_021,里白科,3,1,-0.000,蹄盖蕨科;蹄盖蕨科;蹄盖蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_022,里白科,3,2,0.918,紫萁科;紫萁科;蹄盖蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_025,海金沙科,3,1,-0.000,海金沙科;海金沙科;海金沙科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_026,海金沙科,3,1,-0.000,海金沙科;海金沙科;海金沙科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_027,蘋科,3,2,0.918,蘋科;槐叶蘋科;槐叶蘋科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_028,槐叶蘋科,3,1,-0.000,槐叶蘋科;槐叶蘋科;槐叶蘋科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_029,凤尾蕨科,3,2,0.918,鳞毛蕨科;铁角蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_030,凤尾蕨科,3,3,1.585,膜蕨科;凤尾蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_034,碗蕨科,3,1,-0.000,蹄盖蕨科;蹄盖蕨科;蹄盖蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_035,碗蕨科,3,2,0.918,蹄盖蕨科;海金沙科;海金沙科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_037,冷蕨科,3,2,0.918,骨碎补科;蹄盖蕨科;骨碎补科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_038,冷蕨科,3,3,1.585,冷蕨科;骨碎补科;碗蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_039,铁角蕨科,3,2,0.918,膜蕨科;铁角蕨科;铁角蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_041,蹄盖蕨科,3,1,-0.000,蹄盖蕨科;蹄盖蕨科;蹄盖蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_042,蹄盖蕨科,3,1,-0.000,球子蕨科;球子蕨科;球子蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_043,球子蕨科,3,1,-0.000,球子蕨科;球子蕨科;球子蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_044,球子蕨科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_047,乌毛蕨科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_048,乌毛蕨科,3,1,-0.000,翼盖蕨科;翼盖蕨科;翼盖蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_049,乌毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_054,翼盖蕨科,3,2,0.918,INVALID_OOV::复叶耳蕨科;铁角蕨科;INVALID_OOV::复叶耳蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_055,肿足蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_056,肿足蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_057,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_058,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_059,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_060,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_061,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_062,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_063,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_100,实蕨科,3,1,-0.000,藤蕨科;藤蕨科;藤蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_101,实蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_102,舌蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_103,藤蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_104,肾蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_106,爬树蕨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_107,叉蕨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_108,叉蕨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_111,骨碎补科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_112,骨碎补科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_114,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_115,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_116,水龙骨科,3,2,0.918,INVALID_OOV::瘤蕨科;骨碎补科;INVALID_OOV::瘤蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_117,水龙骨科,3,2,0.918,INVALID_OOV::瘤蕨科;膜蕨科;INVALID_OOV::瘤蕨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_118,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_119,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_153,睫毛蕨科,3,2,0.918,INVALID_OOV::苏铁科;INVALID_OOV::苏铁科;INVALID_EMPTY
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,FERNS_154,禾叶蕨科,3,2,0.918,紫萁科;INVALID_OOV::苏铁科;INVALID_OOV::苏铁科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_001,石松科,3,1,-0.000,石松科;石松科;石松科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_002,石松科,3,1,-0.000,石松科;石松科;石松科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_003,石松科,3,1,-0.000,石松科;石松科;石松科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_008,瓶尔小草科,3,2,0.918,瓶尔小草科;瓶尔小草科;蹄盖蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_009,瓶尔小草科,3,1,-0.000,紫萁科;紫萁科;紫萁科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_012,松叶蕨科,3,1,-0.000,松叶蕨科;松叶蕨科;松叶蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_013,合囊蕨科,3,2,0.918,叉蕨科;实蕨科;实蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_014,合囊蕨科,3,2,0.918,乌毛蕨科;凤尾蕨科;乌毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_015,紫萁科,3,2,0.918,实蕨科;乌毛蕨科;实蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_016,紫萁科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_018,膜蕨科,3,1,-0.000,膜蕨科;膜蕨科;膜蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_019,膜蕨科,3,2,0.918,膜蕨科;膜蕨科;凤尾蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_021,里白科,3,3,1.585,里白科;鳞毛蕨科;乌毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_022,里白科,3,3,1.585,乌毛蕨科;里白科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_025,海金沙科,3,1,-0.000,海金沙科;海金沙科;海金沙科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_026,海金沙科,3,1,-0.000,海金沙科;海金沙科;海金沙科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_027,蘋科,3,1,-0.000,蘋科;蘋科;蘋科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_028,槐叶蘋科,3,1,-0.000,槐叶蘋科;槐叶蘋科;槐叶蘋科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_029,凤尾蕨科,3,2,0.918,铁角蕨科;铁角蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_030,凤尾蕨科,3,1,-0.000,肾蕨科;肾蕨科;肾蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_034,碗蕨科,3,1,-0.000,凤尾蕨科;凤尾蕨科;凤尾蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_035,碗蕨科,3,3,1.585,肿足蕨科;睫毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_037,冷蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_038,冷蕨科,3,2,0.918,冷蕨科;冷蕨科;骨碎补科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_039,铁角蕨科,3,1,-0.000,铁角蕨科;铁角蕨科;铁角蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_041,蹄盖蕨科,3,1,-0.000,蹄盖蕨科;蹄盖蕨科;蹄盖蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_042,蹄盖蕨科,3,1,-0.000,球子蕨科;球子蕨科;球子蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_043,球子蕨科,3,1,-0.000,球子蕨科;球子蕨科;球子蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_044,球子蕨科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_047,乌毛蕨科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_048,乌毛蕨科,3,2,0.918,翼盖蕨科;翼盖蕨科;肿足蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_049,乌毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_054,翼盖蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_055,肿足蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_056,肿足蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_057,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_058,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_059,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_060,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_061,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_062,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_063,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_100,实蕨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_101,实蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_102,舌蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_103,藤蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_104,肾蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_106,爬树蕨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_107,叉蕨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_108,叉蕨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_111,骨碎补科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_112,骨碎补科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_114,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_115,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_116,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_117,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_118,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_119,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_153,睫毛蕨科,3,2,0.918,乌毛蕨科;乌毛蕨科;INVALID_OOV::苏铁科
+dashscope-qwen397b,Qwen3.5 Plus / 397B,FERNS_154,禾叶蕨科,3,2,0.918,乌毛蕨科;乌毛蕨科;INVALID_OOV::苏铁科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_001,石松科,3,1,-0.000,石松科;石松科;石松科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_002,石松科,3,1,-0.000,石松科;石松科;石松科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_003,石松科,3,1,-0.000,石松科;石松科;石松科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_008,瓶尔小草科,3,1,-0.000,紫萁科;紫萁科;紫萁科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_009,瓶尔小草科,3,1,-0.000,紫萁科;紫萁科;紫萁科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_012,松叶蕨科,3,1,-0.000,松叶蕨科;松叶蕨科;松叶蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_013,合囊蕨科,3,1,-0.000,瓶尔小草科;瓶尔小草科;瓶尔小草科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_014,合囊蕨科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_015,紫萁科,3,3,1.585,舌蕨科;瓶尔小草科;实蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_016,紫萁科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_018,膜蕨科,3,1,-0.000,膜蕨科;膜蕨科;膜蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_019,膜蕨科,3,1,-0.000,膜蕨科;膜蕨科;膜蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_021,里白科,3,3,1.585,里白科;海金沙科;乌毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_022,里白科,3,1,-0.000,里白科;里白科;里白科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_025,海金沙科,3,1,-0.000,海金沙科;海金沙科;海金沙科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_026,海金沙科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_027,蘋科,3,1,-0.000,蘋科;蘋科;蘋科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_028,槐叶蘋科,3,1,-0.000,槐叶蘋科;槐叶蘋科;槐叶蘋科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_029,凤尾蕨科,3,1,-0.000,铁角蕨科;铁角蕨科;铁角蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_030,凤尾蕨科,3,2,0.918,蹄盖蕨科;蹄盖蕨科;乌毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_034,碗蕨科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_035,碗蕨科,3,2,0.918,碗蕨科;碗蕨科;膜蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_037,冷蕨科,3,2,0.918,骨碎补科;蹄盖蕨科;骨碎补科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_038,冷蕨科,3,2,0.918,鳞毛蕨科;蹄盖蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_039,铁角蕨科,3,1,-0.000,铁角蕨科;铁角蕨科;铁角蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_041,蹄盖蕨科,3,1,-0.000,蹄盖蕨科;蹄盖蕨科;蹄盖蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_042,蹄盖蕨科,3,1,-0.000,球子蕨科;球子蕨科;球子蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_043,球子蕨科,3,1,-0.000,球子蕨科;球子蕨科;球子蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_044,球子蕨科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_047,乌毛蕨科,3,1,-0.000,乌毛蕨科;乌毛蕨科;乌毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_048,乌毛蕨科,3,1,-0.000,翼盖蕨科;翼盖蕨科;翼盖蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_049,乌毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_054,翼盖蕨科,3,1,-0.000,蹄盖蕨科;蹄盖蕨科;蹄盖蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_055,肿足蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_056,肿足蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_057,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_058,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_059,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_060,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_061,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_062,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_063,鳞毛蕨科,3,1,-0.000,鳞毛蕨科;鳞毛蕨科;鳞毛蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_100,实蕨科,3,1,-0.000,藤蕨科;藤蕨科;藤蕨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_101,实蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_102,舌蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_103,藤蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_104,肾蕨科,3,1,-0.000,骨碎补科;骨碎补科;骨碎补科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_106,爬树蕨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_107,叉蕨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_108,叉蕨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_111,骨碎补科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_112,骨碎补科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_114,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_115,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_116,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_117,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_118,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_119,水龙骨科,3,1,-0.000,水龙骨科;水龙骨科;水龙骨科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_153,睫毛蕨科,3,2,0.918,紫萁科;紫萁科;瓶尔小草科
+google-gemini,Gemini 3.1 Flash Lite,FERNS_154,禾叶蕨科,3,2,0.918,紫萁科;紫萁科;瓶尔小草科

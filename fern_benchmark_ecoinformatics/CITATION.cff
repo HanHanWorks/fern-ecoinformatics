@@ -1,0 +1,97 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the paper and this repository."
+title: "A fern identification benchmark with domain, source and geographic annotations"
+abstract: >-
+  Code and derived data for a study of distribution shift in automated fern
+  identification: 5,969 images of 152 species in 30 families from iNaturalist
+  and GBIF, with per-image annotations of image domain, data source and
+  country, group-aware splits by observation, 700 open-set negatives in eight
+  groups, and 37 released experimental runs.
+type: software
+license:
+  - MIT
+  - CC-BY-4.0
+
+# ---------------------------------------------------------------------------
+# STILL TO FILL IN: the repository URL. The GitHub owner and repository name
+# have not been chosen yet, so this remains a placeholder.
+# ---------------------------------------------------------------------------
+repository-code: "https://github.com/HanHanWorks/fern-ecoinformatics"
+
+authors:
+  - family-names: "Huang"
+    given-names: "Zihao"
+    affiliation: >-
+      Guangxi Key Laboratory of Digital Infrastructure, Guangxi Zhuang
+      Autonomous Region Information Center, Nanning 530000, China; School of
+      Computer and Electronic Information, Guangxi University, Nanning 530000,
+      China
+  - family-names: "Chen"
+    given-names: "Yan"
+    affiliation: >-
+      Guangxi Key Laboratory of Digital Infrastructure, Guangxi Zhuang
+      Autonomous Region Information Center, Nanning 530000, China; School of
+      Computer and Electronic Information, Guangxi University, Nanning 530000,
+      China
+  - family-names: "You"
+    given-names: "Yeming"
+    affiliation: >-
+      Guangxi Colleges and Universities Key Laboratory for Cultivation and
+      Utilization of Subtropical Forest Plantation, Key Laboratory of National
+      Forestry and Grassland Administration on Cultivation of Fast-Growing
+      Timber in Central South China, School of Forestry, Guangxi University,
+      Nanning 530004, China
+  - family-names: "Zhang"
+    given-names: "Qi"
+    affiliation: "China Post Group Co., Ltd. Nanning Branch, Nanning 530000, China"
+  - family-names: "Su"
+    given-names: "Kai"
+    affiliation: >-
+      Guangxi Colleges and Universities Key Laboratory for Cultivation and
+      Utilization of Subtropical Forest Plantation, Key Laboratory of National
+      Forestry and Grassland Administration on Cultivation of Fast-Growing
+      Timber in Central South China, School of Forestry, Guangxi University,
+      Nanning 530004, China
+
+# Correspondence for this dataset. The e-mail address is deliberately omitted:
+# it is published with the article (see the title page under manuscript/text/)
+# and duplicating it in repository metadata would widen its footprint for no
+# real gain. Add an `email:` line here if you would rather it be listed.
+contact:
+  - family-names: "Su"
+    given-names: "Kai"
+    affiliation: >-
+      School of Forestry, Guangxi University, Nanning 530004, China
+
+version: "1.0.0"
+date-released: "2026-10-14"
+
+keywords:
+  - fern identification
+  - herbarium specimens
+  - distribution shift
+  - benchmark
+  - BioCLIP
+  - vision-language models
+  - open-set recognition
+
+preferred-citation:
+  type: article
+  title: >-
+    Two axes of distribution shift in automated fern identification: image
+    domain and geography, quantified on a 5,969-image, 152-species benchmark
+  journal: "Ecological Informatics"
+  year: 2026
+  authors:
+    - family-names: "Huang"
+      given-names: "Zihao"
+    - family-names: "Chen"
+      given-names: "Yan"
+    - family-names: "You"
+      given-names: "Yeming"
+    - family-names: "Zhang"
+      given-names: "Qi"
+    - family-names: "Su"
+      given-names: "Kai"
+  # STILL TO FILL IN once the article is accepted.
+  doi: "REPLACE_DOI_WHEN_ASSIGNED"

@@ -1,0 +1,181 @@
+provider,model,sample_id,expected_family,decision,selected_option,positive_retained,family_correct
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_001,石松科,in_scope,石松科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_002,石松科,in_scope,石松科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_003,石松科,in_scope,松叶蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_008,瓶尔小草科,in_scope,蹄盖蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_009,瓶尔小草科,in_scope,阴地蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_012,松叶蕨科,in_scope,松叶蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_013,合囊蕨科,in_scope,膜蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_014,合囊蕨科,in_scope,乌毛蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_015,紫萁科,in_scope,紫萁科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_016,紫萁科,in_scope,紫萁科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_018,膜蕨科,in_scope,合囊蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_019,膜蕨科,in_scope,膜蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_021,里白科,in_scope,蹄盖蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_022,里白科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_025,海金沙科,in_scope,海金沙科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_026,海金沙科,in_scope,海金沙科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_027,蘋科,in_scope,蘋科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_028,槐叶蘋科,in_scope,槐叶蘋科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_029,凤尾蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_030,凤尾蕨科,in_scope,铁角蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_034,碗蕨科,in_scope,蹄盖蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_035,碗蕨科,in_scope,蹄盖蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_037,冷蕨科,in_scope,蹄盖蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_038,冷蕨科,in_scope,骨碎补科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_039,铁角蕨科,in_scope,铁角蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_041,蹄盖蕨科,in_scope,蹄盖蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_042,蹄盖蕨科,in_scope,球子蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_043,球子蕨科,in_scope,球子蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_044,球子蕨科,in_scope,乌毛蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_047,乌毛蕨科,in_scope,乌毛蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_048,乌毛蕨科,in_scope,翼盖蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_049,乌毛蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_054,翼盖蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_055,肿足蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_056,肿足蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_057,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_058,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_059,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_060,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_061,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_062,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_063,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_100,实蕨科,in_scope,舌蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_101,实蕨科,in_scope,骨碎补科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_102,舌蕨科,in_scope,骨碎补科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_103,藤蕨科,in_scope,骨碎补科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_104,肾蕨科,in_scope,骨碎补科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_106,爬树蕨科,in_scope,水龙骨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_107,叉蕨科,in_scope,水龙骨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_108,叉蕨科,in_scope,水龙骨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_111,骨碎补科,in_scope,骨碎补科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_112,骨碎补科,in_scope,水龙骨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_114,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_115,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_116,水龙骨科,in_scope,瘤蕨科,1,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_117,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_118,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_119,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_153,睫毛蕨科,none_of_the_above,,0,0
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,OPEN_POS_FERNS_154,禾叶蕨科,none_of_the_above,,0,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_001,石松科,in_scope,石松科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_002,石松科,in_scope,石松科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_003,石松科,in_scope,石松科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_008,瓶尔小草科,in_scope,瓶尔小草科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_009,瓶尔小草科,in_scope,紫萁科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_012,松叶蕨科,in_scope,松叶蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_013,合囊蕨科,in_scope,叉蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_014,合囊蕨科,in_scope,乌毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_015,紫萁科,in_scope,实蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_016,紫萁科,in_scope,乌毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_018,膜蕨科,in_scope,膜蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_019,膜蕨科,in_scope,膜蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_021,里白科,in_scope,乌毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_022,里白科,in_scope,乌毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_025,海金沙科,in_scope,海金沙科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_026,海金沙科,in_scope,海金沙科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_027,蘋科,in_scope,蘋科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_028,槐叶蘋科,in_scope,槐叶蘋科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_029,凤尾蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_030,凤尾蕨科,in_scope,肾蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_034,碗蕨科,in_scope,凤尾蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_035,碗蕨科,in_scope,睫毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_037,冷蕨科,in_scope,骨碎补科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_038,冷蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_039,铁角蕨科,in_scope,铁角蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_041,蹄盖蕨科,in_scope,蹄盖蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_042,蹄盖蕨科,in_scope,球子蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_043,球子蕨科,in_scope,球子蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_044,球子蕨科,in_scope,乌毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_047,乌毛蕨科,in_scope,乌毛蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_048,乌毛蕨科,in_scope,翼盖蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_049,乌毛蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_054,翼盖蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_055,肿足蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_056,肿足蕨科,in_scope,鳞毛蕨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_057,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_058,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_059,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_060,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_061,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_062,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_063,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_100,实蕨科,in_scope,水龙骨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_101,实蕨科,in_scope,骨碎补科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_102,舌蕨科,in_scope,骨碎补科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_103,藤蕨科,in_scope,骨碎补科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_104,肾蕨科,in_scope,骨碎补科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_106,爬树蕨科,in_scope,水龙骨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_107,叉蕨科,in_scope,水龙骨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_108,叉蕨科,in_scope,水龙骨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_111,骨碎补科,in_scope,水龙骨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_112,骨碎补科,in_scope,水龙骨科,1,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_114,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_115,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_116,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_117,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_118,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_119,水龙骨科,in_scope,水龙骨科,1,1
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_153,睫毛蕨科,none_of_the_above,,0,0
+dashscope-qwen397b,Qwen3.5 Plus / 397B,OPEN_POS_FERNS_154,禾叶蕨科,none_of_the_above,,0,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_001,石松科,in_scope,石松科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_002,石松科,in_scope,石松科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_003,石松科,in_scope,松叶蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_008,瓶尔小草科,in_scope,紫萁科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_009,瓶尔小草科,in_scope,紫萁科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_012,松叶蕨科,in_scope,松叶蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_013,合囊蕨科,none_of_the_above,,0,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_014,合囊蕨科,in_scope,乌毛蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_015,紫萁科,in_scope,瓶尔小草科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_016,紫萁科,in_scope,乌毛蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_018,膜蕨科,in_scope,膜蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_019,膜蕨科,in_scope,膜蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_021,里白科,in_scope,乌毛蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_022,里白科,none_of_the_above,,0,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_025,海金沙科,in_scope,凤尾蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_026,海金沙科,in_scope,乌毛蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_027,蘋科,in_scope,蘋科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_028,槐叶蘋科,in_scope,槐叶蘋科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_029,凤尾蕨科,in_scope,铁角蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_030,凤尾蕨科,in_scope,铁角蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_034,碗蕨科,in_scope,乌毛蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_035,碗蕨科,in_scope,膜蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_037,冷蕨科,in_scope,蹄盖蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_038,冷蕨科,in_scope,鳞毛蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_039,铁角蕨科,in_scope,铁角蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_041,蹄盖蕨科,in_scope,蹄盖蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_042,蹄盖蕨科,in_scope,球子蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_043,球子蕨科,in_scope,球子蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_044,球子蕨科,in_scope,乌毛蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_047,乌毛蕨科,in_scope,乌毛蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_048,乌毛蕨科,in_scope,翼盖蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_049,乌毛蕨科,in_scope,鳞毛蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_054,翼盖蕨科,in_scope,蹄盖蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_055,肿足蕨科,in_scope,鳞毛蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_056,肿足蕨科,in_scope,鳞毛蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_057,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_058,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_059,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_060,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_061,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_062,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_063,鳞毛蕨科,in_scope,鳞毛蕨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_100,实蕨科,in_scope,藤蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_101,实蕨科,in_scope,骨碎补科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_102,舌蕨科,in_scope,骨碎补科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_103,藤蕨科,in_scope,骨碎补科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_104,肾蕨科,in_scope,骨碎补科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_106,爬树蕨科,in_scope,水龙骨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_107,叉蕨科,in_scope,水龙骨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_108,叉蕨科,in_scope,水龙骨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_111,骨碎补科,in_scope,实蕨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_112,骨碎补科,in_scope,水龙骨科,1,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_114,水龙骨科,in_scope,水龙骨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_115,水龙骨科,in_scope,水龙骨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_116,水龙骨科,in_scope,水龙骨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_117,水龙骨科,in_scope,水龙骨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_118,水龙骨科,in_scope,水龙骨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_119,水龙骨科,in_scope,水龙骨科,1,1
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_153,睫毛蕨科,none_of_the_above,,0,0
+google-gemini,Gemini 3.1 Flash Lite,OPEN_POS_FERNS_154,禾叶蕨科,none_of_the_above,,0,0

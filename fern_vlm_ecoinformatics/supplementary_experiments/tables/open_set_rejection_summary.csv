@@ -1,0 +1,4 @@
+provider,model,status,completed_success_n,target_n,positive_n,negative_n,negative_rejection_accuracy,negative_rejection_95ci,false_positive_rate,false_positive_95ci,positive_retention_accuracy,positive_retention_95ci,positive_family_accuracy,positive_family_95ci,invalid_decision_count,high_conf_false_positive_count,open_set_metric_interpretable,interpretation_note,estimated_tokens
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,completed,120,120,60,60,73.3%,61.0%-82.9%,20.0%,11.8%-31.8%,96.7%,88.6%-99.1%,45.0%,33.1%-57.5%,4,12,1,,266289
+dashscope-qwen397b,Qwen3.5 Plus / 397B,completed,120,120,60,60,91.7%,81.9%-96.4%,8.3%,3.6%-18.1%,96.7%,88.6%-99.1%,46.7%,34.6%-59.1%,0,5,1,,449906
+google-gemini,Gemini 3.1 Flash Lite,completed,120,120,60,60,90.0%,79.9%-95.3%,10.0%,4.7%-20.1%,93.3%,84.1%-97.4%,40.0%,28.6%-52.6%,0,5,1,,201456

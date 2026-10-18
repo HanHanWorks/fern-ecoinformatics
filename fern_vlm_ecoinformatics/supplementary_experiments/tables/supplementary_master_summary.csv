@@ -1,0 +1,51 @@
+experiment,provider,model,status,subset,n,family_acc,family_acc_95ci,top3_acc,species_acc,invalid_rate,tokens,avg_time_s,primary_metric,secondary_metric,note
+no_call_macro_balanced,,Gemini 3.1 Flash Lite,completed,direct30_full155,155,59.4%,,43.4%,,,,,35.8%,35.8%,existing five-model results; no new API calls
+no_call_macro_balanced,,Gemini 3.1 Flash Lite,completed,taxonomy_full155,155,57.4%,,39.0%,,,,,33.2%,33.2%,existing five-model results; no new API calls
+no_call_macro_balanced,,Gemini 3.1 Flash Lite,completed,taxonomy_l3,55,41.8%,,41.1%,,,,,39.4%,39.4%,existing five-model results; no new API calls
+no_call_macro_balanced,,mimo-v2.5,completed,direct30_full155,155,51.0%,,29.8%,,,,,24.8%,24.8%,existing five-model results; no new API calls
+no_call_macro_balanced,,mimo-v2.5,completed,taxonomy_full155,155,40.6%,,25.8%,,,,,16.3%,16.3%,existing five-model results; no new API calls
+no_call_macro_balanced,,mimo-v2.5,completed,taxonomy_l3,55,20.0%,,21.1%,,,,,16.1%,16.1%,existing five-model results; no new API calls
+no_call_macro_balanced,,Qwen3.5-27B,completed,direct30_full155,155,57.4%,,38.3%,,,,,30.0%,30.0%,existing five-model results; no new API calls
+no_call_macro_balanced,,Qwen3.5-27B,completed,taxonomy_full155,155,59.4%,,48.4%,,,,,35.1%,35.1%,existing five-model results; no new API calls
+no_call_macro_balanced,,Qwen3.5-27B,completed,taxonomy_l3,55,36.4%,,46.1%,,,,,35.0%,35.0%,existing five-model results; no new API calls
+no_call_macro_balanced,,Qwen3.5-35B-A3B,completed,direct30_full155,155,56.8%,,43.3%,,,,,29.5%,29.5%,existing five-model results; no new API calls
+no_call_macro_balanced,,Qwen3.5-35B-A3B,completed,taxonomy_full155,155,59.4%,,46.7%,,,,,32.5%,32.5%,existing five-model results; no new API calls
+no_call_macro_balanced,,Qwen3.5-35B-A3B,completed,taxonomy_l3,55,34.5%,,46.1%,,,,,31.7%,31.7%,existing five-model results; no new API calls
+no_call_macro_balanced,,Qwen3.5 Plus / 397B,completed,direct30_full155,155,60.6%,,43.7%,,,,,34.1%,34.1%,existing five-model results; no new API calls
+no_call_macro_balanced,,Qwen3.5 Plus / 397B,completed,taxonomy_full155,155,59.4%,,41.6%,,,,,33.3%,33.3%,existing five-model results; no new API calls
+no_call_macro_balanced,,Qwen3.5 Plus / 397B,completed,taxonomy_l3,55,43.6%,,47.2%,,,,,41.1%,41.1%,existing five-model results; no new API calls
+no_call_confidence_calibration,,Gemini 3.1 Flash Lite,completed,direct30_full155,155,59.4%,,,,,,,0.356,36.1%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Gemini 3.1 Flash Lite,completed,taxonomy_full155,155,57.4%,,,,,,,0.374,38.1%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Gemini 3.1 Flash Lite,completed,taxonomy_l3,55,41.8%,,,,,,,0.481,45.5%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,mimo-v2.5,completed,direct30_full155,141,54.6%,,,,,,,0.345,34.0%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,mimo-v2.5,completed,taxonomy_full155,86,62.8%,,,,,,,0.251,31.4%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,mimo-v2.5,completed,taxonomy_l3,28,35.7%,,,,,,,0.512,53.6%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Qwen3.5-27B,completed,direct30_full155,155,57.4%,,,,,,,0.374,40.0%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Qwen3.5-27B,completed,taxonomy_full155,155,59.4%,,,,,,,0.348,36.8%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Qwen3.5-27B,completed,taxonomy_l3,55,36.4%,,,,,,,0.537,58.2%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Qwen3.5-35B-A3B,completed,direct30_full155,155,56.8%,,,,,,,0.344,35.5%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Qwen3.5-35B-A3B,completed,taxonomy_full155,155,59.4%,,,,,,,0.331,36.8%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Qwen3.5-35B-A3B,completed,taxonomy_l3,55,34.5%,,,,,,,0.532,58.2%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Qwen3.5 Plus / 397B,completed,direct30_full155,154,61.0%,,,,,,,0.348,35.7%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Qwen3.5 Plus / 397B,completed,taxonomy_full155,154,59.7%,,,,,,,0.347,37.0%,confidence parsed from existing raw responses
+no_call_confidence_calibration,,Qwen3.5 Plus / 397B,completed,taxonomy_l3,55,43.6%,,,,,,,0.476,50.9%,confidence parsed from existing raw responses
+no_call_genus_level,,Gemini 3.1 Flash Lite,completed,species_l4,39,,,10.3%,0.0%,,,,7.7%,0.0%,existing species_l4 results; no new API calls
+no_call_genus_level,,mimo-v2.5,completed,species_l4,39,,,5.1%,2.6%,,,,5.1%,2.6%,existing species_l4 results; no new API calls
+no_call_genus_level,,Qwen3.5-27B,completed,species_l4,39,,,7.7%,2.6%,,,,7.7%,2.6%,existing species_l4 results; no new API calls
+no_call_genus_level,,Qwen3.5-35B-A3B,completed,species_l4,39,,,7.7%,2.6%,,,,7.7%,2.6%,existing species_l4 results; no new API calls
+no_call_genus_level,,Qwen3.5 Plus / 397B,completed,species_l4,39,,,7.7%,2.6%,,,,7.7%,2.6%,existing species_l4 results; no new API calls
+order_robustness,dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,completed,seed_20260512,60,40.0%,28.6%-52.6%,53.3%,,8.3%,123117,2.0,40.0%,8.3%,new API calls on text-masked 60 with shuffled candidates
+order_robustness,dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,completed,seed_20260513,60,41.7%,30.1%-54.3%,55.0%,,3.3%,123062,2.1,41.7%,3.3%,new API calls on text-masked 60 with shuffled candidates
+order_robustness,dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,completed,seed_20260514,60,38.3%,27.1%-51.0%,50.0%,,10.0%,123596,2.2,38.3%,10.0%,new API calls on text-masked 60 with shuffled candidates
+order_robustness,dashscope-qwen397b,Qwen3.5 Plus / 397B,completed,seed_20260512,60,50.0%,37.7%-62.3%,60.0%,,0.0%,188364,24.3,50.0%,0.0%,new API calls on text-masked 60 with shuffled candidates
+order_robustness,dashscope-qwen397b,Qwen3.5 Plus / 397B,completed,seed_20260513,60,50.0%,37.7%-62.3%,61.7%,,0.0%,198063,23.4,50.0%,0.0%,new API calls on text-masked 60 with shuffled candidates
+order_robustness,dashscope-qwen397b,Qwen3.5 Plus / 397B,completed,seed_20260514,60,43.3%,31.6%-55.9%,55.0%,,3.3%,170248,16.8,43.3%,3.3%,new API calls on text-masked 60 with shuffled candidates
+order_robustness,google-gemini,Gemini 3.1 Flash Lite,completed,seed_20260512,60,48.3%,36.2%-60.7%,53.3%,,0.0%,95333,8.0,48.3%,0.0%,new API calls on text-masked 60 with shuffled candidates
+order_robustness,google-gemini,Gemini 3.1 Flash Lite,completed,seed_20260513,60,46.7%,34.6%-59.1%,55.0%,,0.0%,95298,7.4,46.7%,0.0%,new API calls on text-masked 60 with shuffled candidates
+order_robustness,google-gemini,Gemini 3.1 Flash Lite,completed,seed_20260514,60,45.0%,33.1%-57.5%,51.7%,,0.0%,95318,9.1,45.0%,0.0%,new API calls on text-masked 60 with shuffled candidates
+external_validation,dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,completed,direct30_external90,90,33.3%,24.5%-43.6%,44.4%,,4.4%,203120,2.3,33.3%,33.3%,new API calls on external iNaturalist/GBIF images
+external_validation,dashscope-qwen397b,Qwen3.5 Plus / 397B,completed,direct30_external90,90,43.3%,33.6%-53.6%,60.0%,,0.0%,351256,30.8,43.3%,43.3%,new API calls on external iNaturalist/GBIF images
+external_validation,google-gemini,Gemini 3.1 Flash Lite,completed,direct30_external90,90,41.1%,31.5%-51.4%,56.7%,,0.0%,143127,9.4,41.1%,41.1%,new API calls on external iNaturalist/GBIF images
+open_set_rejection,dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,completed,open_set_120,120,45.0%,33.1%-57.5%,,,,266289,,73.3%,45.0%,new API calls on 60 positive + 60 negative open-set images
+open_set_rejection,dashscope-qwen397b,Qwen3.5 Plus / 397B,completed,open_set_120,120,46.7%,34.6%-59.1%,,,,449906,,91.7%,46.7%,new API calls on 60 positive + 60 negative open-set images
+open_set_rejection,google-gemini,Gemini 3.1 Flash Lite,completed,open_set_120,120,40.0%,28.6%-52.6%,,,,201456,,90.0%,40.0%,new API calls on 60 positive + 60 negative open-set images

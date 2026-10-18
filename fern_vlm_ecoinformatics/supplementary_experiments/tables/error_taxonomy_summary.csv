@@ -1,0 +1,90 @@
+model_id,model,task,error_category,count
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,broad_group_confusion,5
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,dominant_family_attraction,29
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,high_confidence_error,56
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,page_text_or_label_cue,39
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,same_l1_group_confusion,58
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,broad_group_confusion,4
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,dominant_family_attraction,27
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,high_confidence_error,59
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,page_text_or_label_cue,39
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,same_l1_group_confusion,62
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,broad_group_confusion,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,dominant_family_attraction,14
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,high_confidence_error,25
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,page_text_or_label_cue,18
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,same_l1_group_confusion,30
+mimo_v2.5,mimo-v2.5,direct30_full155,broad_group_confusion,8
+mimo_v2.5,mimo-v2.5,direct30_full155,candidate_out_invalid,1
+mimo_v2.5,mimo-v2.5,direct30_full155,dominant_family_attraction,45
+mimo_v2.5,mimo-v2.5,direct30_full155,high_confidence_error,48
+mimo_v2.5,mimo-v2.5,direct30_full155,missing_key_morphology,7
+mimo_v2.5,mimo-v2.5,direct30_full155,page_text_or_label_cue,38
+mimo_v2.5,mimo-v2.5,direct30_full155,same_l1_group_confusion,67
+mimo_v2.5,mimo-v2.5,taxonomy_full155,broad_group_confusion,8
+mimo_v2.5,mimo-v2.5,taxonomy_full155,candidate_out_invalid,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,dominant_family_attraction,60
+mimo_v2.5,mimo-v2.5,taxonomy_full155,high_confidence_error,27
+mimo_v2.5,mimo-v2.5,taxonomy_full155,missing_key_morphology,48
+mimo_v2.5,mimo-v2.5,taxonomy_full155,page_text_or_label_cue,60
+mimo_v2.5,mimo-v2.5,taxonomy_full155,same_l1_group_confusion,83
+mimo_v2.5,mimo-v2.5,taxonomy_l3,broad_group_confusion,6
+mimo_v2.5,mimo-v2.5,taxonomy_l3,candidate_out_invalid,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,dominant_family_attraction,32
+mimo_v2.5,mimo-v2.5,taxonomy_l3,high_confidence_error,15
+mimo_v2.5,mimo-v2.5,taxonomy_l3,missing_key_morphology,26
+mimo_v2.5,mimo-v2.5,taxonomy_l3,page_text_or_label_cue,33
+mimo_v2.5,mimo-v2.5,taxonomy_l3,same_l1_group_confusion,37
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,broad_group_confusion,9
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,dominant_family_attraction,28
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,high_confidence_error,62
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,page_text_or_label_cue,30
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,same_l1_group_confusion,57
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,broad_group_confusion,7
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,dominant_family_attraction,29
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,high_confidence_error,57
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,missing_key_morphology,4
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,page_text_or_label_cue,41
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,same_l1_group_confusion,56
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,broad_group_confusion,3
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,dominant_family_attraction,15
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,high_confidence_error,32
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,missing_key_morphology,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,page_text_or_label_cue,21
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,same_l1_group_confusion,32
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,broad_group_confusion,8
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,dominant_family_attraction,25
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,high_confidence_error,55
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,page_text_or_label_cue,39
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,same_l1_group_confusion,59
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,broad_group_confusion,7
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,dominant_family_attraction,22
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,high_confidence_error,57
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,missing_key_morphology,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,page_text_or_label_cue,40
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,same_l1_group_confusion,56
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,broad_group_confusion,4
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,dominant_family_attraction,16
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,high_confidence_error,32
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,page_text_or_label_cue,20
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,same_l1_group_confusion,32
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,broad_group_confusion,5
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,candidate_out_invalid,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,dominant_family_attraction,28
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,high_confidence_error,55
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,missing_key_morphology,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,page_text_or_label_cue,39
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,same_l1_group_confusion,55
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,broad_group_confusion,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,candidate_out_invalid,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,dominant_family_attraction,35
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,high_confidence_error,57
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,missing_key_morphology,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,page_text_or_label_cue,42
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,same_l1_group_confusion,59
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,broad_group_confusion,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,dominant_family_attraction,21
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,high_confidence_error,28
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,missing_key_morphology,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,page_text_or_label_cue,21
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,same_l1_group_confusion,29

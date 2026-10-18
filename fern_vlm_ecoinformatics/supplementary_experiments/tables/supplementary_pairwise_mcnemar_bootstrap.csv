@@ -1,0 +1,22 @@
+experiment,subset,model_a,model_b,paired_n,acc_a,acc_b,both_correct,a_only,b_only,neither_correct,mcnemar_exact_p,bootstrap_diff_b_minus_a,bootstrap_diff_95ci
+order_robustness,seed_20260512,Qwen3.5-35B-A3B / qwen3.5-flash,Qwen3.5 Plus / 397B,60,40.0%,50.0%,24,0,6,30,0.031250,10.0%,3.3%-18.3%
+order_robustness,seed_20260512,Qwen3.5-35B-A3B / qwen3.5-flash,Gemini 3.1 Flash Lite,60,40.0%,48.3%,22,2,7,29,0.179688,8.3%,0.0%-18.3%
+order_robustness,seed_20260512,Qwen3.5 Plus / 397B,Gemini 3.1 Flash Lite,60,50.0%,48.3%,27,3,2,28,1.000000,-1.7%,-10.0%-5.0%
+order_robustness,seed_20260513,Qwen3.5-35B-A3B / qwen3.5-flash,Qwen3.5 Plus / 397B,60,41.7%,50.0%,23,2,7,28,0.179688,8.3%,0.0%-18.3%
+order_robustness,seed_20260513,Qwen3.5-35B-A3B / qwen3.5-flash,Gemini 3.1 Flash Lite,60,41.7%,46.7%,22,3,6,29,0.507812,5.0%,-5.0%-15.0%
+order_robustness,seed_20260513,Qwen3.5 Plus / 397B,Gemini 3.1 Flash Lite,60,50.0%,46.7%,27,3,1,29,0.625000,-3.3%,-10.0%-3.3%
+order_robustness,seed_20260514,Qwen3.5-35B-A3B / qwen3.5-flash,Qwen3.5 Plus / 397B,60,38.3%,43.3%,22,1,4,33,0.375000,5.0%,-1.7%-11.7%
+order_robustness,seed_20260514,Qwen3.5-35B-A3B / qwen3.5-flash,Gemini 3.1 Flash Lite,60,38.3%,45.0%,22,1,5,32,0.218750,6.7%,0.0%-15.0%
+order_robustness,seed_20260514,Qwen3.5 Plus / 397B,Gemini 3.1 Flash Lite,60,43.3%,45.0%,25,1,2,32,1.000000,1.7%,-3.3%-6.7%
+external_validation,direct30,Qwen3.5-35B-A3B / qwen3.5-flash,Qwen3.5 Plus / 397B,90,33.3%,43.3%,24,6,15,45,0.078354,10.0%,0.0%-20.0%
+external_validation,direct30,Qwen3.5-35B-A3B / qwen3.5-flash,Gemini 3.1 Flash Lite,90,33.3%,41.1%,20,10,17,43,0.247789,7.8%,-3.3%-18.9%
+external_validation,direct30,Qwen3.5 Plus / 397B,Gemini 3.1 Flash Lite,90,43.3%,41.1%,25,14,12,39,0.845019,-2.2%,-13.3%-8.9%
+open_set_negative_rejection,open_set_120,Qwen3.5-35B-A3B / qwen3.5-flash,Qwen3.5 Plus / 397B,60,73.3%,91.7%,44,0,11,5,0.000977,18.3%,8.3%-28.3%
+open_set_negative_rejection,open_set_120,Qwen3.5-35B-A3B / qwen3.5-flash,Gemini 3.1 Flash Lite,60,73.3%,90.0%,42,2,12,4,0.012939,16.7%,5.0%-28.3%
+open_set_negative_rejection,open_set_120,Qwen3.5 Plus / 397B,Gemini 3.1 Flash Lite,60,91.7%,90.0%,52,3,2,3,1.000000,-1.7%,-8.3%-5.0%
+open_set_positive_retention,open_set_120,Qwen3.5-35B-A3B / qwen3.5-flash,Qwen3.5 Plus / 397B,60,96.7%,96.7%,58,0,0,2,1.000000,0.0%,0.0%-0.0%
+open_set_positive_retention,open_set_120,Qwen3.5-35B-A3B / qwen3.5-flash,Gemini 3.1 Flash Lite,60,96.7%,93.3%,56,2,0,2,0.500000,-3.3%,-8.3%-0.0%
+open_set_positive_retention,open_set_120,Qwen3.5 Plus / 397B,Gemini 3.1 Flash Lite,60,96.7%,93.3%,56,2,0,2,0.500000,-3.3%,-8.3%-0.0%
+open_set_positive_family,open_set_120,Qwen3.5-35B-A3B / qwen3.5-flash,Qwen3.5 Plus / 397B,60,45.0%,46.7%,24,3,4,29,1.000000,1.7%,-6.7%-10.0%
+open_set_positive_family,open_set_120,Qwen3.5-35B-A3B / qwen3.5-flash,Gemini 3.1 Flash Lite,60,45.0%,40.0%,22,5,2,31,0.453125,-5.0%,-13.3%-3.3%
+open_set_positive_family,open_set_120,Qwen3.5 Plus / 397B,Gemini 3.1 Flash Lite,60,46.7%,40.0%,24,4,0,32,0.125000,-6.7%,-13.3%--1.7%

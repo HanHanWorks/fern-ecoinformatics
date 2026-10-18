@@ -1,0 +1,10 @@
+provider,model,seed,n,valid_count,family_correct,family_acc,family_acc_95ci,top3_acc,top3_acc_95ci,invalid_count,invalid_rate,estimated_tokens,avg_time_s,status
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260512,60,55,24,40.0%,28.6%-52.6%,53.3%,40.9%-65.4%,5,8.3%,123117,2.0,completed
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260513,60,58,25,41.7%,30.1%-54.3%,55.0%,42.5%-66.9%,2,3.3%,123062,2.1,completed
+dashscope-qwen35-flash,Qwen3.5-35B-A3B / qwen3.5-flash,20260514,60,54,23,38.3%,27.1%-51.0%,50.0%,37.7%-62.3%,6,10.0%,123596,2.2,completed
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260512,60,60,30,50.0%,37.7%-62.3%,60.0%,47.4%-71.4%,0,0.0%,188364,24.3,completed
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260513,60,60,30,50.0%,37.7%-62.3%,61.7%,49.0%-72.9%,0,0.0%,198063,23.4,completed
+dashscope-qwen397b,Qwen3.5 Plus / 397B,20260514,60,58,26,43.3%,31.6%-55.9%,55.0%,42.5%-66.9%,2,3.3%,170248,16.8,completed
+google-gemini,Gemini 3.1 Flash Lite,20260512,60,60,29,48.3%,36.2%-60.7%,53.3%,40.9%-65.4%,0,0.0%,95333,8.0,completed
+google-gemini,Gemini 3.1 Flash Lite,20260513,60,60,28,46.7%,34.6%-59.1%,55.0%,42.5%-66.9%,0,0.0%,95298,7.4,completed
+google-gemini,Gemini 3.1 Flash Lite,20260514,60,60,27,45.0%,33.1%-57.5%,51.7%,39.3%-63.8%,0,0.0%,95318,9.1,completed

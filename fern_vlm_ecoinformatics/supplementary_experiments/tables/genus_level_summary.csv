@@ -1,0 +1,6 @@
+model_id,model,n,valid_species_predictions,species_accuracy,genus_accuracy,genus_top3_accuracy,family_correct_but_genus_wrong,genus_invalid_count
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,39,37,0.0%,7.7%,10.3%,35,2
+mimo_v2.5,mimo-v2.5,39,38,2.6%,5.1%,5.1%,37,1
+qwen3.5_27b,Qwen3.5-27B,39,39,2.6%,7.7%,7.7%,36,0
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,39,37,2.6%,7.7%,7.7%,35,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,39,39,2.6%,7.7%,7.7%,35,0

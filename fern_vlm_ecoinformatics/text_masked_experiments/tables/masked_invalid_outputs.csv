@@ -1,0 +1,7 @@
+model,task,condition,species_id,expected_family,predicted_family,error
+Qwen3.5-35B-A3B / qwen3.5-flash,direct30,text_masked,FERNS_009,瓶尔小草科,阴地蕨科,
+Qwen3.5-35B-A3B / qwen3.5-flash,direct30,text_masked,FERNS_116,水龙骨科,瘤蕨科,
+Qwen3.5-35B-A3B / qwen3.5-flash,direct30,text_masked,FERNS_153,睫毛蕨科,苏铁科,
+Qwen3.5-35B-A3B / qwen3.5-flash,direct30,text_masked,FERNS_154,禾叶蕨科,苏铁科,
+Qwen3.5-35B-A3B / qwen3.5-flash,taxonomy,text_masked,FERNS_153,睫毛蕨科,苏铁科,
+Qwen3.5-35B-A3B / qwen3.5-flash,taxonomy,text_masked,FERNS_154,禾叶蕨科,苏铁科,

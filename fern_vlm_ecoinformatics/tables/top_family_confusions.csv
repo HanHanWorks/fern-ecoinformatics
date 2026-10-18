@@ -1,0 +1,184 @@
+model_id,model,task,expected_family,predicted_family,count
+mimo_v2.5,mimo-v2.5,direct30_full155,鳞毛蕨科,叉蕨科,6
+mimo_v2.5,mimo-v2.5,direct30_full155,乌毛蕨科,鳞毛蕨科,5
+mimo_v2.5,mimo-v2.5,direct30_full155,叉蕨科,水龙骨科,4
+mimo_v2.5,mimo-v2.5,direct30_full155,球子蕨科,乌毛蕨科,3
+mimo_v2.5,mimo-v2.5,direct30_full155,骨碎补科,水龙骨科,3
+mimo_v2.5,mimo-v2.5,direct30_full155,石松科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,紫萁科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,里白科,鳞毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,凤尾蕨科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,碗蕨科,凤尾蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,肿足蕨科,鳞毛蕨科,2
+mimo_v2.5,mimo-v2.5,direct30_full155,鳞毛蕨科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,石松科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,合囊蕨科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,紫萁科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,膜蕨科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,里白科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,海金沙科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,凤尾蕨科,乌毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,乌毛蕨科,鳞毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,肿足蕨科,鳞毛蕨科,2
+mimo_v2.5,mimo-v2.5,taxonomy_l3,瓶尔小草科,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,蘋科,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_l3,槐叶蘋科,乌毛蕨科,1
+mimo_v2.5,mimo-v2.5,taxonomy_full155,鳞毛蕨科,乌毛蕨科,7
+mimo_v2.5,mimo-v2.5,taxonomy_full155,鳞毛蕨科,叉蕨科,5
+mimo_v2.5,mimo-v2.5,taxonomy_full155,水龙骨科,乌毛蕨科,5
+mimo_v2.5,mimo-v2.5,taxonomy_full155,石松科,乌毛蕨科,4
+mimo_v2.5,mimo-v2.5,taxonomy_full155,里白科,乌毛蕨科,4
+mimo_v2.5,mimo-v2.5,taxonomy_full155,凤尾蕨科,乌毛蕨科,4
+mimo_v2.5,mimo-v2.5,taxonomy_full155,碗蕨科,乌毛蕨科,4
+mimo_v2.5,mimo-v2.5,taxonomy_full155,叉蕨科,水龙骨科,4
+mimo_v2.5,mimo-v2.5,taxonomy_full155,紫萁科,乌毛蕨科,3
+mimo_v2.5,mimo-v2.5,taxonomy_full155,球子蕨科,乌毛蕨科,3
+mimo_v2.5,mimo-v2.5,taxonomy_full155,乌毛蕨科,鳞毛蕨科,3
+mimo_v2.5,mimo-v2.5,taxonomy_full155,鳞毛蕨科,肾蕨科,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,鳞毛蕨科,叉蕨科,6
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,乌毛蕨科,鳞毛蕨科,5
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,叉蕨科,水龙骨科,4
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,球子蕨科,乌毛蕨科,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,骨碎补科,水龙骨科,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,紫萁科,实蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,凤尾蕨科,铁角蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,凤尾蕨科,水龙骨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,冷蕨科,骨碎补科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,肿足蕨科,鳞毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,鳞毛蕨科,藤蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,direct30_full155,瓶尔小草科,蹄盖蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,里白科,乌毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,凤尾蕨科,铁角蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,乌毛蕨科,鳞毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,肿足蕨科,鳞毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,叉蕨科,水龙骨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,骨碎补科,水龙骨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,合囊蕨科,瓶尔小草科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,合囊蕨科,乌毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,紫萁科,水龙骨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,紫萁科,乌毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,碗蕨科,凤尾蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_l3,碗蕨科,水龙骨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,鳞毛蕨科,叉蕨科,6
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,乌毛蕨科,鳞毛蕨科,5
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,叉蕨科,水龙骨科,4
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,球子蕨科,乌毛蕨科,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,骨碎补科,水龙骨科,3
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,紫萁科,乌毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,里白科,乌毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,凤尾蕨科,水龙骨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,肿足蕨科,鳞毛蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,鳞毛蕨科,实蕨科,2
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,合囊蕨科,叉蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,taxonomy_full155,合囊蕨科,乌毛蕨科,1
+qwen3.5_plus_397b,Qwen3.5 Plus / 397B,species_l4,水龙骨科,INVALID_OOV::苏铁科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,鳞毛蕨科,叉蕨科,6
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,乌毛蕨科,鳞毛蕨科,5
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,叉蕨科,水龙骨科,4
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,凤尾蕨科,铁角蕨科,3
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,球子蕨科,乌毛蕨科,3
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,骨碎补科,水龙骨科,3
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,瓶尔小草科,紫萁科,2
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,冷蕨科,铁角蕨科,2
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,肿足蕨科,鳞毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,鳞毛蕨科,藤蕨科,2
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,石松科,松叶蕨科,1
+qwen3.5_27b,Qwen3.5-27B,direct30_full155,石松科,海金沙科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,紫萁科,乌毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,凤尾蕨科,铁角蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,乌毛蕨科,鳞毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,肿足蕨科,鳞毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,叉蕨科,水龙骨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,骨碎补科,水龙骨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,禾叶蕨科,碗蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,石松科,松叶蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,瓶尔小草科,蹄盖蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,合囊蕨科,瓶尔小草科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,合囊蕨科,舌蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_l3,里白科,蹄盖蕨科,1
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,鳞毛蕨科,叉蕨科,6
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,乌毛蕨科,鳞毛蕨科,5
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,叉蕨科,水龙骨科,4
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,凤尾蕨科,铁角蕨科,3
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,球子蕨科,乌毛蕨科,3
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,骨碎补科,水龙骨科,3
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,石松科,松叶蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,紫萁科,乌毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,凤尾蕨科,水龙骨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,肿足蕨科,鳞毛蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,鳞毛蕨科,藤蕨科,2
+qwen3.5_27b,Qwen3.5-27B,taxonomy_full155,瓶尔小草科,蹄盖蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,鳞毛蕨科,叉蕨科,6
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,乌毛蕨科,鳞毛蕨科,5
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,叉蕨科,水龙骨科,4
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,凤尾蕨科,铁角蕨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,球子蕨科,乌毛蕨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,骨碎补科,水龙骨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,紫萁科,乌毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,里白科,鳞毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,碗蕨科,海金沙科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,肿足蕨科,鳞毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,鳞毛蕨科,藤蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,direct30_full155,石松科,藤蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,冷蕨科,蹄盖蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,乌毛蕨科,鳞毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,肿足蕨科,鳞毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,叉蕨科,水龙骨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,骨碎补科,水龙骨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,石松科,松叶蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,瓶尔小草科,紫萁科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,合囊蕨科,水龙骨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,合囊蕨科,睫毛蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,紫萁科,藤蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,紫萁科,蹄盖蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_l3,里白科,铁角蕨科,1
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,鳞毛蕨科,叉蕨科,6
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,乌毛蕨科,鳞毛蕨科,5
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,叉蕨科,水龙骨科,4
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,里白科,蹄盖蕨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,球子蕨科,乌毛蕨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,骨碎补科,水龙骨科,3
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,凤尾蕨科,铁角蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,碗蕨科,蹄盖蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,碗蕨科,睫毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,肿足蕨科,鳞毛蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,鳞毛蕨科,藤蕨科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,taxonomy_full155,禾叶蕨科,紫萁科,2
+qwen3.5_35b_a3b,Qwen3.5-35B-A3B,species_l4,水龙骨科,苏铁科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,鳞毛蕨科,叉蕨科,8
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,乌毛蕨科,鳞毛蕨科,5
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,叉蕨科,水龙骨科,4
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,凤尾蕨科,铁角蕨科,3
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,球子蕨科,乌毛蕨科,3
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,骨碎补科,水龙骨科,3
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,凤尾蕨科,乌毛蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,肿足蕨科,鳞毛蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,鳞毛蕨科,实蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,石松科,松叶蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,瓶尔小草科,紫萁科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,direct30_full155,瓶尔小草科,乌毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,海金沙科,凤尾蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,肿足蕨科,鳞毛蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,实蕨科,骨碎补科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,叉蕨科,水龙骨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,骨碎补科,水龙骨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,瓶尔小草科,紫萁科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,合囊蕨科,叉蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,合囊蕨科,乌毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,紫萁科,实蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,紫萁科,乌毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,凤尾蕨科,铁角蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_l3,碗蕨科,乌毛蕨科,1
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,鳞毛蕨科,叉蕨科,7
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,乌毛蕨科,鳞毛蕨科,4
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,叉蕨科,水龙骨科,4
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,球子蕨科,乌毛蕨科,3
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,骨碎补科,水龙骨科,3
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,紫萁科,乌毛蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,海金沙科,凤尾蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,凤尾蕨科,铁角蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,肿足蕨科,鳞毛蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,鳞毛蕨科,实蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,鳞毛蕨科,藤蕨科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,taxonomy_full155,实蕨科,骨碎补科,2
+gemini_3.1_flash_lite,Gemini 3.1 Flash Lite,species_l4,水龙骨科,苏铁科,1

@@ -1,0 +1,15 @@
+# Keep git from normalising line endings in the released data files.
+#
+# The table generator writes CSV with CRLF endings, because that is the
+# default of Python's csv module. The committed CSVs therefore carry CRLF,
+# and a reader who re-runs code/paper_artifacts/make_paper_tables.py gets
+# byte-identical files. Normalising them here would silently break that.
+
+*.csv  -text
+*.jsonl -text
+
+*.py   text eol=lf
+*.sh   text eol=lf
+*.md   text eol=lf
+*.cff  text eol=lf
+*.txt  text eol=lf

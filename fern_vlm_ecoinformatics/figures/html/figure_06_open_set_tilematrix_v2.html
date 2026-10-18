@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Figure 6 v2 - Open-set Rejection</title>
+  <style>
+    :root {
+      --ink:#162033;
+      --muted:#5f6f86;
+      --line:#d8e1eb;
+      --paper:#f5f7fa;
+      --panel:#ffffff;
+      --green:#2a9d5b;
+      --orange:#d97706;
+      --red:#c44e52;
+    }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+    main {
+      width: min(1280px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 24px 0 32px;
+    }
+    h1 { margin: 0 0 6px; font-size: 22px; font-weight: 700; }
+    .subtitle { margin: 0 0 16px; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    .frame {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 16px;
+      overflow-x: auto;
+    }
+    svg { display: block; width: 1220px; height: auto; }
+    .notes {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .box {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px 14px;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .box h2 { margin: 0 0 6px; font-size: 14px; }
+    code { font-size: 12px; }
+    @media (max-width: 820px) { .notes { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Figure 6 v2. Open-set prompting improves rejection, but fern-like negatives remain difficult</h1>
+  <p class="subtitle">A journal-style deployment figure combining overall rejection, negative-group structure, and high-confidence false positives.</p>
+  <section class="frame">
+    <svg viewBox="0 0 1220 780" role="img" aria-label="Open-set rejection performance">
+      <text x="34" y="36" font-size="22" font-weight="700" fill="#162033">Open-set prompting improves rejection, but close negatives remain risky</text>
+      <text x="34" y="60" font-size="13" fill="#5f6f86">Negative groups: candidate-out fern, bryophyte or liverwort, angiosperm, and gymnosperm or cycad; each group n=15.</text>
+
+      <text x="54" y="106" font-size="15" font-weight="700" fill="#162033">A. Overall deployment metrics</text>
+      <text x="54" y="126" font-size="12" fill="#5f6f86">Green bars show negative rejection accuracy; orange bars show positive family accuracy under the open-set prompt.</text>
+
+      <g font-size="10.5" fill="#5f6f86">
+        <line x1="314" y1="150" x2="676" y2="150" stroke="#d8e1eb"></line>
+        <line x1="314" y1="410" x2="676" y2="410" stroke="#d8e1eb"></line>
+        <line x1="314" y1="142" x2="314" y2="418" stroke="#eef3f8"></line><text x="314" y="434" text-anchor="middle">0</text>
+        <line x1="404.5" y1="142" x2="404.5" y2="418" stroke="#eef3f8"></line><text x="404.5" y="434" text-anchor="middle">25</text>
+        <line x1="495" y1="142" x2="495" y2="418" stroke="#eef3f8"></line><text x="495" y="434" text-anchor="middle">50</text>
+        <line x1="585.5" y1="142" x2="585.5" y2="418" stroke="#eef3f8"></line><text x="585.5" y="434" text-anchor="middle">75</text>
+        <line x1="676" y1="142" x2="676" y2="418" stroke="#eef3f8"></line><text x="676" y="434" text-anchor="middle">100%</text>
+      </g>
+
+      <g font-size="12">
+        <text x="290" y="192" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-35B-A3B</text>
+        <rect x="314" y="176" width="265.3" height="18" fill="#2a9d5b"></rect>
+        <text x="590" y="190" fill="#2a9d5b" font-weight="700">reject 73.3%</text>
+        <rect x="314" y="204" width="162.9" height="18" fill="#d97706"></rect>
+        <text x="488" y="218" fill="#b35e00" font-weight="700">positive family 45.0%</text>
+
+        <text x="290" y="274" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-397B-A17B</text>
+        <rect x="314" y="258" width="332.0" height="18" fill="#2a9d5b"></rect>
+        <text x="657" y="272" fill="#2a9d5b" font-weight="700">reject 91.7%</text>
+        <rect x="314" y="286" width="169.1" height="18" fill="#d97706"></rect>
+        <text x="494" y="300" fill="#b35e00" font-weight="700">positive family 46.7%</text>
+
+        <text x="290" y="356" text-anchor="end" font-weight="700" fill="#162033">Gemini 3.1 Flash Lite</text>
+        <rect x="314" y="340" width="325.8" height="18" fill="#2a9d5b"></rect>
+        <text x="651" y="354" fill="#2a9d5b" font-weight="700">reject 90.0%</text>
+        <rect x="314" y="368" width="144.8" height="18" fill="#d97706"></rect>
+        <text x="470" y="382" fill="#b35e00" font-weight="700">positive family 40.0%</text>
+      </g>
+
+      <text x="738" y="106" font-size="15" font-weight="700" fill="#162033">B. Negative-group rejection matrix</text>
+      <text x="738" y="126" font-size="12" fill="#5f6f86">Each cell reports rejection accuracy, with the false-positive count shown beneath the percentage.</text>
+
+      <g font-size="10.5" fill="#162033">
+        <text x="866" y="168" text-anchor="middle" font-weight="700">candidate-out fern</text>
+        <text x="982" y="168" text-anchor="middle" font-weight="700">bryophyte or liverwort</text>
+        <text x="1098" y="168" text-anchor="middle" font-weight="700">angiosperm</text>
+        <text x="1214" y="168" text-anchor="middle" font-weight="700">gymnosperm or cycad</text>
+
+        <text x="834" y="224" text-anchor="end" font-weight="700">Qwen3.5-35B-A3B</text>
+        <rect x="844" y="190" width="104" height="56" rx="2" fill="#f6c0b5" stroke="#d8e1eb"></rect>
+        <text x="896" y="214" text-anchor="middle" font-size="14" font-weight="700">13.3%</text><text x="896" y="234" text-anchor="middle" fill="#5f6f86">FP 9/15</text>
+        <rect x="960" y="190" width="104" height="56" rx="2" fill="#cde9d8" stroke="#d8e1eb"></rect>
+        <text x="1012" y="214" text-anchor="middle" font-size="14" font-weight="700">80.0%</text><text x="1012" y="234" text-anchor="middle" fill="#5f6f86">FP 3/15</text>
+        <rect x="1076" y="190" width="104" height="56" rx="2" fill="#9cd3ae" stroke="#d8e1eb"></rect>
+        <text x="1128" y="214" text-anchor="middle" font-size="14" font-weight="700">100%</text><text x="1128" y="234" text-anchor="middle" fill="#5f6f86">FP 0/15</text>
+        <rect x="1192" y="190" width="104" height="56" rx="2" fill="#9cd3ae" stroke="#d8e1eb"></rect>
+        <text x="1244" y="214" text-anchor="middle" font-size="14" font-weight="700">100%</text><text x="1244" y="234" text-anchor="middle" fill="#5f6f86">FP 0/15</text>
+
+        <text x="834" y="304" text-anchor="end" font-weight="700">Qwen3.5-397B-A17B</text>
+        <rect x="844" y="270" width="104" height="56" rx="2" fill="#dcefe4" stroke="#d8e1eb"></rect>
+        <text x="896" y="294" text-anchor="middle" font-size="14" font-weight="700">73.3%</text><text x="896" y="314" text-anchor="middle" fill="#5f6f86">FP 4/15</text>
+        <rect x="960" y="270" width="104" height="56" rx="2" fill="#b9dec5" stroke="#d8e1eb"></rect>
+        <text x="1012" y="294" text-anchor="middle" font-size="14" font-weight="700">93.3%</text><text x="1012" y="314" text-anchor="middle" fill="#5f6f86">FP 1/15</text>
+        <rect x="1076" y="270" width="104" height="56" rx="2" fill="#9cd3ae" stroke="#d8e1eb"></rect>
+        <text x="1128" y="294" text-anchor="middle" font-size="14" font-weight="700">100%</text><text x="1128" y="314" text-anchor="middle" fill="#5f6f86">FP 0/15</text>
+        <rect x="1192" y="270" width="104" height="56" rx="2" fill="#9cd3ae" stroke="#d8e1eb"></rect>
+        <text x="1244" y="294" text-anchor="middle" font-size="14" font-weight="700">100%</text><text x="1244" y="314" text-anchor="middle" fill="#5f6f86">FP 0/15</text>
+
+        <text x="834" y="384" text-anchor="end" font-weight="700">Gemini 3.1 Flash Lite</text>
+        <rect x="844" y="350" width="104" height="56" rx="2" fill="#c5e6d1" stroke="#d8e1eb"></rect>
+        <text x="896" y="374" text-anchor="middle" font-size="14" font-weight="700">86.7%</text><text x="896" y="394" text-anchor="middle" fill="#5f6f86">FP 2/15</text>
+        <rect x="960" y="350" width="104" height="56" rx="2" fill="#dcefe4" stroke="#d8e1eb"></rect>
+        <text x="1012" y="374" text-anchor="middle" font-size="14" font-weight="700">73.3%</text><text x="1012" y="394" text-anchor="middle" fill="#5f6f86">FP 4/15</text>
+        <rect x="1076" y="350" width="104" height="56" rx="2" fill="#9cd3ae" stroke="#d8e1eb"></rect>
+        <text x="1128" y="374" text-anchor="middle" font-size="14" font-weight="700">100%</text><text x="1128" y="394" text-anchor="middle" fill="#5f6f86">FP 0/15</text>
+        <rect x="1192" y="350" width="104" height="56" rx="2" fill="#9cd3ae" stroke="#d8e1eb"></rect>
+        <text x="1244" y="374" text-anchor="middle" font-size="14" font-weight="700">100%</text><text x="1244" y="394" text-anchor="middle" fill="#5f6f86">FP 0/15</text>
+      </g>
+
+      <text x="54" y="520" font-size="15" font-weight="700" fill="#162033">C. High-confidence false positives</text>
+      <text x="54" y="540" font-size="12" fill="#5f6f86">These counts highlight the most deployment-relevant failures: incorrect in-scope family assignments made with high confidence.</text>
+
+      <g font-size="10.5" fill="#5f6f86">
+        <line x1="314" y1="568" x2="612" y2="568" stroke="#d8e1eb"></line>
+        <line x1="314" y1="720" x2="612" y2="720" stroke="#d8e1eb"></line>
+        <line x1="314" y1="560" x2="314" y2="728" stroke="#eef3f8"></line><text x="314" y="742" text-anchor="middle">0</text>
+        <line x1="438" y1="560" x2="438" y2="728" stroke="#eef3f8"></line><text x="438" y="742" text-anchor="middle">5</text>
+        <line x1="562" y1="560" x2="562" y2="728" stroke="#eef3f8"></line><text x="562" y="742" text-anchor="middle">10</text>
+        <line x1="612" y1="560" x2="612" y2="728" stroke="#eef3f8"></line><text x="612" y="742" text-anchor="middle">12 cases</text>
+      </g>
+      <g font-size="12">
+        <text x="290" y="610" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-35B-A3B</text>
+        <rect x="314" y="596" width="298" height="20" fill="#f2d6d6"></rect>
+        <text x="621" y="611" fill="#162033">12</text>
+
+        <text x="290" y="664" text-anchor="end" font-weight="700" fill="#162033">Qwen3.5-397B-A17B</text>
+        <rect x="314" y="650" width="124.2" height="20" fill="#f2d6d6"></rect>
+        <text x="447" y="665" fill="#162033">5</text>
+
+        <text x="290" y="718" text-anchor="end" font-weight="700" fill="#162033">Gemini 3.1 Flash Lite</text>
+        <rect x="314" y="704" width="124.2" height="20" fill="#f2d6d6"></rect>
+        <text x="447" y="719" fill="#162033">5</text>
+      </g>
+
+      <g font-size="12" fill="#5f6f86">
+        <text x="736" y="598">Main false-positive families in the candidate-out fern group:</text>
+        <text x="736" y="626">Qwen3.5-35B-A3B: Selaginellaceae, Lycopodiaceae, Hymenophyllaceae</text>
+        <text x="736" y="650">Qwen3.5-397B-A17B: Lycopodiaceae, Dryopteridaceae</text>
+        <text x="736" y="674">Gemini 3.1 Flash Lite: Ophioglossaceae, Hymenophyllaceae, Lycopodiaceae</text>
+      </g>
+    </svg>
+  </section>
+  <section class="notes">
+    <div class="box">
+      <h2>Detailed content</h2>
+      <p>Panel A summarizes deployment-facing open-set behavior. Panel B shows that the main risk is not broad out-of-domain categories such as angiosperms or gymnosperms, but fern-like negatives that resemble the candidate space. Panel C isolates the count of high-confidence false positives, which are especially problematic in ecological data workflows.</p>
+    </div>
+    <div class="box">
+      <h2>Data source</h2>
+      <p><code>paper_analysis/supplementary_experiments/tables/open_set_rejection_summary.csv</code></p>
+      <p><code>paper_analysis/supplementary_experiments/tables/open_set_by_negative_group.csv</code></p>
+      <p>Key values: rejection 73.3%-91.7%; candidate-out fern rejection 13.3%, 73.3%, and 86.7%; high-confidence false positives 12, 5, and 5.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>
